@@ -1,0 +1,3614 @@
+# Arabic translation for Capital of Business
+# Copyright (C) 2025 Capital of Business
+# This file is distributed under the same license as the Capital of Business package.
+# Waleed Elsefy <waleed.elsefy@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Capital of Business\n"
+"POT-Creation-Date: 2025-06-12 03:03+0300\n"
+"PO-Revision-Date: 2025-06-12 03:04+0300\n"
+"Last-Translator: Gemini\n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n"
+"%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: footer.php:31
+msgid "Quick links"
+msgstr "روابط سريعة"
+
+#: footer.php:43 template-parts/home/areas.php:32
+msgid "Top Areas"
+msgstr "افضل المناطق"
+
+#: footer.php:55 template-parts/home/projects.php:71
+msgid "Latest Projects"
+msgstr "أحدث المشروعات"
+
+#: footer.php:67 inc/post-types/properties/properties.php:188
+#: inc/post-types/properties/properties.php:199
+#: template-parts/home/developers.php:30
+msgid "Developers"
+msgstr "المطورين"
+
+#: footer.php:80
+msgid "Subscribe to the newsletter"
+msgstr "اشترك في النشرة الإخبارية"
+
+#: footer.php:81
+msgid "Subscribe now to receive the latest news and exclusive offers"
+msgstr "اشترك الآن للحصول على آخر الأخبار والعروض الحصرية"
+
+#: footer.php:84
+msgid "Subscribe"
+msgstr "اشترك"
+
+#: footer.php:117
+msgid "All rights reserved ©"
+msgstr "جميع الحقوق محفوظة  ©"
+
+#. Theme Name of the plugin/theme
+#: footer.php:117
+msgid "Capital of Business"
+msgstr "Capital of Business"
+
+#: footer.php:120
+msgid "privacy policy"
+msgstr "سياسة الخصوصية"
+
+#: footer.php:121
+msgid "terms of use"
+msgstr "شروط الاستخدام"
+
+#: header.php:25 inc/importer/cob-property-importer.php:172
+msgid "Arabic"
+msgstr "العربية"
+
+#: header.php:28 inc/importer/cob-property-importer.php:171
+msgid "English"
+msgstr "الانجليزية"
+
+#: header.php:63
+msgid "Toggle navigation"
+msgstr "تبديل التنقل"
+
+#: header.php:81 inc/theme-setup/menus.php:20
+msgid "Primary Menu"
+msgstr "القائمة الأساسية"
+
+#: header.php:105
+msgid "Call us"
+msgstr "اتصل بنا"
+
+#: inc/ajax/cob-latest-projects-ajax.php:44
+#: template-parts/factors/pagination-section.php:23
+#: template-parts/projects/projects.php:57
+msgid "No projects found."
+msgstr "لم يتم العثور على مشاريع."
+
+#: inc/ajax/cob-latest-projects-ajax.php:54
+#: inc/ajax/cob_ajax_load_properties.php:45 search.php:24
+#: template-parts/areas/pagination-section.php:150
+#: template-parts/factors/pagination-section.php:36
+#: template-parts/hiring/jobs-posts.php:151 template-parts/projects/projects.php:72
+#: template-parts/taxonomy-city/top-trend.php:71
+#: template-parts/taxonomy-compound/featured.php:153
+#: template-parts/taxonomy-compound/top-trend.php:74
+#: template-parts/taxonomy-developer/top-trend.php:144
+#: template-parts/taxonomy-developer/top-trend.php:197
+msgid "Previous"
+msgstr "السابق"
+
+#: inc/ajax/cob-latest-projects-ajax.php:55
+#: inc/ajax/cob_ajax_load_properties.php:46 search.php:25
+#: template-parts/areas/pagination-section.php:151
+#: template-parts/factors/pagination-section.php:37
+#: template-parts/hiring/jobs-posts.php:152 template-parts/projects/projects.php:73
+#: template-parts/taxonomy-city/top-trend.php:72
+#: template-parts/taxonomy-compound/featured.php:154
+#: template-parts/taxonomy-compound/top-trend.php:75
+#: template-parts/taxonomy-developer/top-trend.php:164
+#: template-parts/taxonomy-developer/top-trend.php:240
+msgid "Next"
+msgstr "التالي"
+
+#: inc/ajax/cob_ajax_load_properties.php:34
+#: inc/ajax/load_compound_properties.php:77
+#: inc/ajax/load_developer_properties.php:77
+#: template-parts/taxonomy-city/top-trend.php:58
+#: template-parts/taxonomy-compound/featured.php:118
+#: template-parts/taxonomy-compound/top-trend.php:58
+#: template-parts/taxonomy-developer/top-trend.php:132
+msgid "There are no posts currently available"
+msgstr "لا توجد مشاركات متاحة حاليا"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:40 inc/ajax/cob_handle_zoom_meeting.php:80
+msgid "Invalid input"
+msgstr "إدخال غير صالح"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:51 inc/ajax/cob_handle_zoom_meeting.php:88
+msgid "Zoom API error"
+msgstr "خطأ في Zoom API"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:117
+msgid "Your Zoom Meeting Details"
+msgstr "تفاصيل اجتماع Zoom الخاص بك"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:123
+msgid "Join URL:"
+msgstr "رابط الانضمام:"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:124
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:160
+msgid "Failed to obtain token"
+msgstr "فشل في الحصول على الرمز"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:169
+#: inc/ajax/cob_handle_zoom_meeting.php:170
+#: inc/ajax/cob_handle_zoom_meeting.php:197
+msgid "Zoom Meetings"
+msgstr "اجتماعات زووم"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:190
+msgid "Meeting canceled."
+msgstr "تم إلغاء الاجتماع."
+
+#: inc/ajax/cob_handle_zoom_meeting.php:199
+#: inc/contact-forms/contact_entries_menu.php:38
+#: inc/post-types/jobs/job_applicants_menu_page.php:38
+msgid "ID"
+msgstr "ID"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:200
+msgid "Topic"
+msgstr "عنوان"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:201
+msgid "Start Time"
+msgstr "وقت البدء"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:202
+msgid "Participant"
+msgstr "مشارك"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:203
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:230
+msgid "Join"
+msgstr "الانضمام"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:232
+msgid "Are you sure you want to cancel this meeting?"
+msgstr "هل أنت متأكد أنك تريد إلغاء هذا الاجتماع؟"
+
+#: inc/ajax/cob_handle_zoom_meeting.php:233
+msgid "Cancel"
+msgstr "الغاء"
+
+#: inc/ajax/similar-units.php:55
+#: template-parts/properties-post/similar-units.php:51
+msgid "There are no posts currently available."
+msgstr "لا توجد مشاركات متاحة حاليًا."
+
+#: inc/contact-forms/contact_entries_menu.php:17
+#: inc/contact-forms/contact_entries_menu.php:18
+#: inc/contact-forms/contact_entries_menu.php:34
+msgid "Contact Entries"
+msgstr "مدخلات الاتصال"
+
+#: inc/contact-forms/contact_entries_menu.php:39
+#: template-parts/button-container.php:216 template-parts/fixed-icons.php:59
+msgid "Name"
+msgstr "الاسم"
+
+#: inc/contact-forms/contact_entries_menu.php:40
+#: inc/post-types/jobs/job_applicants_menu_page.php:41
+msgid "Phone"
+msgstr "الهاتف"
+
+#: inc/contact-forms/contact_entries_menu.php:41
+#: inc/post-types/jobs/job_applicants_menu_page.php:42
+#: inc/theme-setup/cob_register_company_settings.php:33
+#: template-parts/button-container.php:231 template-parts/fixed-icons.php:74
+msgid "Email"
+msgstr "البريد إلكتروني"
+
+#: inc/contact-forms/contact_entries_menu.php:42
+#: inc/contact-forms/contact_form_submission.php:121
+msgid "Message"
+msgstr "رسالتك"
+
+#: inc/contact-forms/contact_entries_menu.php:43
+msgid "Date"
+msgstr "التاريخ"
+
+#: inc/contact-forms/contact_entries_menu.php:60
+msgid "No entries found"
+msgstr "لا يوجد مدخلات"
+
+#: inc/contact-forms/contact_form_submission.php:8
+msgid "Security check failed."
+msgstr "فشل فحص الأمان."
+
+#: inc/contact-forms/contact_form_submission.php:19
+#: page-templates/contact-us.php:49
+msgid "Please fill in all required fields."
+msgstr "يرجى ملء كافة الحقول المطلوبة."
+
+#: inc/contact-forms/contact_form_submission.php:37
+#: page-templates/contact-us.php:46
+msgid "An error occurred. Please try again later."
+msgstr "حدث خطأ. يرجى المحاولة مرة أخرى لاحقا."
+
+#: inc/contact-forms/contact_form_submission.php:39
+#: page-templates/contact-us.php:44
+msgid "Your message has been sent successfully!"
+msgstr "لقد تم إرسال رسالتك بنجاح!"
+
+#: inc/contact-forms/contact_form_submission.php:112
+#: inc/post-types/jobs/job_applicants_menu_page.php:40
+#: template-parts/button-container.php:75 template-parts/button-container.php:77
+#: template-parts/button-container.php:160 template-parts/button-container.php:162
+#: template-parts/factories-post/left-landing-flat.php:7
+#: template-parts/factories-post/left-landing-flat.php:8
+#: template-parts/factories-post/left-landing-flat.php:78
+#: template-parts/factories-post/left-landing-flat.php:79
+#: template-parts/fixed-icons.php:125 template-parts/fixed-icons.php:127
+#: template-parts/fixed-icons.php:205 template-parts/fixed-icons.php:207
+#: template-parts/lands-post/left-landing-flat.php:16
+#: template-parts/lands-post/left-landing-flat.php:56
+#: template-parts/properties-post/left-landing-flat.php:16
+#: template-parts/properties-post/left-landing-flat.php:56
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#: inc/contact-forms/contact_form_submission.php:115
+msgid "Mobile Number"
+msgstr "رقم الهاتف المحمول"
+
+#: inc/contact-forms/contact_form_submission.php:118
+#: template-parts/contact-section.php:15
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: inc/contact-forms/contact_form_submission.php:122
+msgid "Example: Enter your message here"
+msgstr "مثال: أدخل رسالتك هنا"
+
+#: inc/contact-forms/contact_form_submission.php:124
+#: template-parts/button-container.php:242 template-parts/contact-section.php:17
+#: template-parts/fixed-icons.php:85 template-parts/hiring/jobs-posts.php:137
+msgid "Send"
+msgstr "ارسال"
+
+#: inc/contact-forms/contact_form_submission.php:154
+msgid "An unexpected error occurred."
+msgstr "حدث خطأ غير متوقع."
+
+#: inc/importer/cob-missing-images-tool.php:32
+msgid "Manage Missing Images"
+msgstr "إدارة الصور المفقودة"
+
+#: inc/importer/cob-missing-images-tool.php:33
+msgid "Missing Images"
+msgstr "الصور المفقودة"
+
+#: inc/importer/cob-missing-images-tool.php:67
+msgid "Uploading..."
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:68
+#: inc/importer/cob-missing-images-tool.php:226
+#, fuzzy
+#| msgid "Upload/Select Image"
+msgid "Upload & Set Image"
+msgstr "ارفع صورة / اختر صورة"
+
+#: inc/importer/cob-missing-images-tool.php:82
+msgid "Permission denied."
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:92
+msgid "Missing required data."
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:117
+msgid "Image uploaded, but failed to link to term."
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:122
+#, fuzzy, php-format
+#| msgid "Image of %s - 1"
+msgid "Image set for %s."
+msgstr "صورة %s - 1"
+
+#: inc/importer/cob-missing-images-tool.php:133
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك الأذونات الكافية للوصول إلى هذه الصفحة."
+
+#: inc/importer/cob-missing-images-tool.php:138
+msgid ""
+"This tool helps you quickly find and fix terms missing images. The process is "
+"done via AJAX without page reloads."
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:159
+msgid "Compounds Missing Cover Image"
+msgstr "الكمبوندات صورتها مفقودة"
+
+#: inc/importer/cob-missing-images-tool.php:160
+msgid "All compounds have a cover image assigned."
+msgstr "تم تخصيص صورة غلاف لجميع الكمبوندات."
+
+#: inc/importer/cob-missing-images-tool.php:166
+msgid "Developers Missing Logo"
+msgstr "شعار المطورين المفقود"
+
+#: inc/importer/cob-missing-images-tool.php:167
+msgid "All developers have a logo assigned."
+msgstr "تم تعيين شعار لجميع المطورين."
+
+#: inc/importer/cob-missing-images-tool.php:174
+msgid "Cities Missing Image"
+msgstr "المدن الصورة المفقودة"
+
+#: inc/importer/cob-missing-images-tool.php:175
+#, fuzzy
+#| msgid "All compounds have a cover image assigned."
+msgid "All cities have an image assigned."
+msgstr "تم تخصيص صورة غلاف لجميع الكمبوندات."
+
+#: inc/importer/cob-missing-images-tool.php:192
+#, php-format
+msgid "Error: Taxonomy \"%s\" does not exist."
+msgstr "خطأ: التصنيف \"%s\" غير موجود."
+
+#: inc/importer/cob-missing-images-tool.php:204
+#, fuzzy, php-format
+#| msgid "Error fetching terms for %s: %s"
+msgid "Error fetching terms: %s"
+msgstr "خطأ في جلب المصطلحات لـ %s: %s"
+
+#: inc/importer/cob-missing-images-tool.php:216
+msgid "Edit in New Tab"
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:225
+msgid "Paste image URL here..."
+msgstr ""
+
+#: inc/importer/cob-missing-images-tool.php:233
+#, php-format
+msgid "%d item found."
+msgid_plural "%d items found."
+msgstr[0] "لم يتم العثور على أي عنصر."
+msgstr[1] "تم العثور على عنصر واحد."
+msgstr[2] "تم العثور على عنصرين."
+msgstr[3] "تم العثور على %d عناصر."
+msgstr[4] "تم العثور على %d عنصرًا."
+msgstr[5] "تم العثور على %d عنصر."
+
+#: inc/importer/cob-property-importer.php:71
+#: inc/importer/cob-property-importer.php:138
+#, fuzzy
+#| msgid "Developer Importer (AJAX)"
+msgid "Property Importer (AJAX)"
+msgstr "مستورد المطورين"
+
+#: inc/importer/cob-property-importer.php:72
+#, fuzzy
+#| msgid "Import Progress"
+msgid "Import Properties"
+msgstr "تقدم الاستيراد"
+
+#: inc/importer/cob-property-importer.php:90
+#, fuzzy
+#| msgid ""
+#| "Are you sure you want to start a new developer import? Any previous progress "
+#| "or temporary file will be cleared."
+msgid ""
+"Are you sure you want to start a new import? This will clear any previously "
+"unfinished import."
+msgstr ""
+"هل أنت متأكد من رغبتك في بدء عملية استيراد مطور جديد؟ سيتم مسح أي ملف تقدم سابق "
+"أو مؤقت."
+
+#: inc/importer/cob-property-importer.php:91
+#: inc/importer/cob_taxonomy_Import_compound.php:69
+msgid "Do you want to resume the previous import?"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:92
+#: inc/importer/cob_taxonomy_Import_compound.php:70
+#, fuzzy
+#| msgid "Are you sure you want to cancel this meeting?"
+msgid "Are you sure you want to cancel the process?"
+msgstr "هل أنت متأكد أنك تريد إلغاء هذا الاجتماع؟"
+
+#: inc/importer/cob-property-importer.php:93
+#, fuzzy
+#| msgid "Please select a CSV file to upload."
+msgid "Please select a CSV file to import."
+msgstr "الرجاء تحديد ملف CSV لتحميله."
+
+#: inc/importer/cob-property-importer.php:94
+#: inc/importer/cob-taxonomy-importer.php:103
+#: inc/importer/cob_taxonomy_Import_compound.php:72
+#, fuzzy
+#| msgid "Preparing developer import..."
+msgid "Preparing import..."
+msgstr "تحضير استيراد المطور..."
+
+#: inc/importer/cob-property-importer.php:95
+#: inc/importer/cob-taxonomy-importer.php:104
+#: inc/importer/cob_taxonomy_Import_compound.php:73
+#, fuzzy
+#| msgid "🎉 Developer import completed successfully! 🎉"
+msgid "🎉 Import completed successfully! 🎉"
+msgstr "🎉 تم استيراد المطورين بنجاح! 🎉"
+
+#: inc/importer/cob-property-importer.php:96
+#: inc/importer/cob-taxonomy-importer.php:105
+#: inc/importer/cob_taxonomy_Import_compound.php:74
+msgid "❌ Server connection error"
+msgstr "❌ خطأ في اتصال الخادم"
+
+#: inc/importer/cob-property-importer.php:97
+#: inc/importer/cob_taxonomy_Import_compound.php:75
+msgid "Processed"
+msgstr "تمت معالجته"
+
+#: inc/importer/cob-property-importer.php:98
+#: inc/importer/cob_taxonomy_Import_compound.php:75
+msgid "of"
+msgstr "ل"
+
+#: inc/importer/cob-property-importer.php:99
+#: inc/importer/cob_taxonomy_Import_compound.php:76
+#, fuzzy
+#| msgid "Import Language"
+msgid "Imported"
+msgstr "لغة الاستيراد"
+
+#: inc/importer/cob-property-importer.php:100
+#: inc/importer/cob_taxonomy_Import_compound.php:76
+#, fuzzy
+#| msgid "Update"
+msgid "Updated"
+msgstr "تحديث"
+
+#: inc/importer/cob-property-importer.php:101
+#: inc/importer/cob_taxonomy_Import_compound.php:76
+#, fuzzy
+#| msgid "Failed/Skipped"
+msgid "Failed"
+msgstr "فشل/تخطي"
+
+#: inc/importer/cob-property-importer.php:102
+#, fuzzy
+#| msgid "Connection error while trying to cancel."
+msgid "Connection failed. Retrying in 5 seconds..."
+msgstr "خطأ في الاتصال أثناء محاولة الإلغاء."
+
+#: inc/importer/cob-property-importer.php:103
+msgid ""
+"Maximum retries reached. The import has been stopped. Please check your server "
+"logs or network connection."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:139
+msgid ""
+"This tool imports and updates properties from a CSV file, with support for "
+"translation linking."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:142
+#, fuzzy, php-format
+#| msgid ""
+#| "A previous developer import for file (%s) was not completed (%s%%). You can "
+#| "resume or cancel it to start a new one."
+msgid "An unfinished import of %s was found. You can resume or cancel it."
+msgstr ""
+"لم يكتمل استيراد الملف (%s) السابق للمطور (%s%%). يمكنك استئنافه أو إلغاؤه لبدء "
+"استيراد جديد."
+
+#: inc/importer/cob-property-importer.php:147
+msgid "Step 1: Choose File Source"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:149
+msgid "Upload file from your computer"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:154
+#, fuzzy
+#| msgid "Select the logo for this developer."
+msgid "Select a file from the server"
+msgstr "اختر شعار هذا المطور."
+
+#: inc/importer/cob-property-importer.php:158
+#, fuzzy
+#| msgid "Select CSV File"
+msgid "-- Select a file --"
+msgstr "حدد ملف CSV"
+
+#: inc/importer/cob-property-importer.php:161
+#, php-format
+msgid "Path: %s"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:162
+#, php-format
+msgid "No CSV files found. Please upload files to %s"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:166
+msgid "Step 2: Import Options"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:169
+#, fuzzy
+#| msgid "Import Language"
+msgid "Import Language:"
+msgstr "لغة الاستيراد"
+
+#: inc/importer/cob-property-importer.php:178
+msgid "Skip image import"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:181
+msgid ""
+"Check this for a much faster import of text and meta data. You can run the "
+"import again later with this box unchecked to import images for existing "
+"properties."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:185
+#: inc/importer/cob-taxonomy-importer.php:159
+#: inc/importer/cob_taxonomy_Import_compound.php:118
+#, fuzzy
+#| msgid "Start New Developer Import"
+msgid "Start New Import"
+msgstr "بدء استيراد مطورين جديد"
+
+#: inc/importer/cob-property-importer.php:186
+#: inc/importer/cob-taxonomy-importer.php:160
+#: inc/importer/cob_taxonomy_Import_compound.php:119
+#, fuzzy
+#| msgid "Resume Developer Import"
+msgid "Resume Import"
+msgstr "استئناف استيراد المطورين"
+
+#: inc/importer/cob-property-importer.php:187
+#: inc/importer/cob_taxonomy_Import_compound.php:120
+#, fuzzy
+#| msgid "Cancel and Reset"
+msgid "Cancel & Reset"
+msgstr "إلغاء وإعادة تعيين"
+
+#: inc/importer/cob-property-importer.php:191
+#: inc/importer/cob-taxonomy-importer.php:165
+#: inc/importer/cob_taxonomy_Import_compound.php:124
+msgid "Import Progress"
+msgstr "تقدم الاستيراد"
+
+#: inc/importer/cob-property-importer.php:194
+#: inc/importer/cob-taxonomy-importer.php:168
+#: inc/importer/cob_taxonomy_Import_compound.php:127
+msgid "Log:"
+msgstr "السجل: "
+
+#: inc/importer/cob-property-importer.php:206
+#: inc/importer/cob-taxonomy-importer.php:183
+#: inc/importer/cob_taxonomy_Import_compound.php:139
+msgid "Insufficient permissions."
+msgstr "أذونات غير كافية."
+
+#: inc/importer/cob-property-importer.php:235
+#, fuzzy
+#| msgid "No file uploaded or upload error. Code: "
+msgid "No file uploaded or an upload error occurred."
+msgstr "لم يتم تحميل أي ملف أو حدث خطأ في التحميل. الرمز:"
+
+#: inc/importer/cob-property-importer.php:239
+#: inc/importer/cob_taxonomy_Import_compound.php:165
+#, fuzzy
+#| msgid "Error handling uploaded file: "
+msgid "Error handling uploaded file:"
+msgstr "خطأ في التعامل مع الملف الذي تم تحميله:"
+
+#: inc/importer/cob-property-importer.php:239
+msgid "Unknown error"
+msgstr "خطأ غير معروف"
+
+#: inc/importer/cob-property-importer.php:248
+msgid "File not found on server or is not readable."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:254
+msgid "Failed to copy file from server to temporary directory."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:269
+#, fuzzy
+#| msgid "Failed to reopen temporary file for processing."
+msgid "Failed to open the CSV file for reading."
+msgstr "فشل إعادة فتح الملف المؤقت للمعالجة."
+
+#: inc/importer/cob-property-importer.php:280
+#, fuzzy, php-format
+#| msgid "Preparation successful."
+msgid "Preparation successful. Found %d data rows."
+msgstr "تم التحضير بنجاح."
+
+#: inc/importer/cob-property-importer.php:286
+#, fuzzy
+#| msgid "No resumable developer import process found."
+msgid "Could not find a valid import process to run."
+msgstr "لم يتم العثور على عملية استيراد مطور قابلة للاستئناف."
+
+#: inc/importer/cob-property-importer.php:290
+#: inc/importer/cob_taxonomy_Import_compound.php:199
+#, fuzzy
+#| msgid "Import already completed."
+msgid "Import is already complete."
+msgstr "اكتمل الاستيراد بالفعل."
+
+#: inc/importer/cob-property-importer.php:305
+#, fuzzy, php-format
+#| msgid ""
+#| "(Row %d) Error: Column count (%d) does not match header count (%d). Skipping "
+#| "row."
+msgid ""
+"Fatal Error: Column count does not match header count (Found: %d, Expected: %d)."
+msgstr ""
+"(الصف %d) خطأ: عدد الأعمدة (%d) لا يطابق عدد الأعمدة في العنوان (%d). يتم تخطي "
+"الصف."
+
+#: inc/importer/cob-property-importer.php:310
+#, fuzzy
+#| msgid "(Row %d) Error: Failed to combine headers with data. Skipping row."
+msgid "Fatal Error: Failed to combine headers with row data."
+msgstr "(الصف %d) خطأ: فشل دمج العناوين مع البيانات. يتم تخطي الصف."
+
+#: inc/importer/cob-property-importer.php:333
+#, fuzzy
+#| msgid "Import completed. Temporary file deleted."
+msgid "Import finished. Temporary file has been deleted."
+msgstr "اكتمل الاستيراد. تم حذف الملف المؤقت."
+
+#: inc/importer/cob-property-importer.php:346
+#: inc/importer/cob_taxonomy_Import_compound.php:252
+#, fuzzy
+#| msgid "Developer import process cancelled and status cleared."
+msgid "Process cancelled and status cleared successfully."
+msgstr "تم إلغاء عملية استيراد المطور ومسح الحالة."
+
+#: inc/importer/cob-property-importer.php:354
+#, fuzzy
+#| msgid "No resumable developer import process found."
+msgid "No resumable import process was found."
+msgstr "لم يتم العثور على عملية استيراد مطور قابلة للاستئناف."
+
+#: inc/importer/cob-property-importer.php:359
+#, fuzzy
+#| msgid "Unknown importer action."
+msgid "Unknown action requested."
+msgstr "إجراء استيراد غير معروف."
+
+#: inc/importer/cob-property-importer.php:377
+#, fuzzy
+#| msgid "Error: Source ID ('%s') is empty. Skipping row."
+msgid "Error: Source `id` column is empty."
+msgstr "خطأ: معرف المصدر ('%s') فارغ. يتم تخطي الصف."
+
+#: inc/importer/cob-property-importer.php:383
+#, php-format
+msgid "Error: Property name (`%s`) is empty."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:411
+#, fuzzy, php-format
+#| msgid "Updated existing developer '%s' (ID: %d)."
+msgid "Updated \"%s\" (ID: %d)."
+msgstr "تم تحديث المطور الحالي '%s' (المعرف: %d)."
+
+#: inc/importer/cob-property-importer.php:416
+#, fuzzy, php-format
+#| msgid "Failed to delete term ID %d. Error: %s"
+msgid "Failed to create \"%s\": %s"
+msgstr "فشل حذف معرف المصطلح %d. الخطأ: %s"
+
+#: inc/importer/cob-property-importer.php:419
+#, php-format
+msgid "Created \"%s\" as a new post (ID: %d)."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:437
+msgid "Linked translations."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:468
+#, php-format
+msgid "Saved %d additional data field."
+msgid_plural "Saved %d additional data fields."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/importer/cob-property-importer.php:487
+#, php-format
+msgid "Warning: Could not decode JSON from column `%s`."
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:492
+#, php-format
+msgid "Saved %d JSON data field."
+msgid_plural "Saved %d JSON data fields."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/importer/cob-property-importer.php:530
+msgid "Warning: Failed to import image from URL"
+msgstr ""
+
+#: inc/importer/cob-property-importer.php:538
+#, fuzzy
+#| msgid "Use as featured image"
+msgid "Set first image as featured image."
+msgstr "استخدم كصورة مميزة"
+
+#: inc/importer/cob-property-importer.php:541
+#, php-format
+msgid "Saved %d gallery image."
+msgid_plural "Saved %d gallery images."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/importer/cob-taxonomy-importer.php:28
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:179
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:246
+#: inc/post-types/properties/properties.php:189
+#: inc/taxonomy/compound/cob_add_compounds_columns.php:33
+#: inc/taxonomy/compound/cob_add_compounds_columns.php:41
+msgid "Developer"
+msgstr "مطور"
+
+#: inc/importer/cob-taxonomy-importer.php:46
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:191
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:257
+#: inc/post-types/properties/properties.php:169
+#: inc/taxonomy/compound/cob_add_compounds_columns.php:34
+#: inc/taxonomy/compound/cob_add_compounds_columns.php:42
+msgid "City"
+msgstr "مدينة"
+
+#: inc/importer/cob-taxonomy-importer.php:74
+#, fuzzy
+#| msgid "Developer Importer (AJAX)"
+msgid "Taxonomy Importer (AJAX)"
+msgstr "مستورد المطورين"
+
+#: inc/importer/cob-taxonomy-importer.php:75
+#, fuzzy
+#| msgid "Import Developers (AJAX)"
+msgid "Import Taxonomies (AJAX)"
+msgstr "استيراد المطورين"
+
+#: inc/importer/cob-taxonomy-importer.php:99
+#, fuzzy
+#| msgid ""
+#| "Are you sure you want to start a new developer import? Any previous progress "
+#| "or temporary file will be cleared."
+msgid ""
+"Are you sure you want to start a new import? Any previous progress will be "
+"cleared."
+msgstr ""
+"هل أنت متأكد من رغبتك في بدء عملية استيراد مطور جديد؟ سيتم مسح أي ملف تقدم سابق "
+"أو مؤقت."
+
+#: inc/importer/cob-taxonomy-importer.php:100
+#, fuzzy
+#| msgid ""
+#| "This will resume the developer import from where it left off. Are you sure?"
+msgid "This will resume the import from where it left off. Are you sure?"
+msgstr "سيؤدي هذا إلى استئناف استيراد المطور من حيث توقف. هل أنت متأكد؟"
+
+#: inc/importer/cob-taxonomy-importer.php:101
+#, fuzzy
+#| msgid ""
+#| "Are you sure you want to cancel the developer import and clear progress/"
+#| "temporary file?"
+msgid "Are you sure you want to cancel the import and clear progress?"
+msgstr "هل أنت متأكد أنك تريد إلغاء استيراد المطور ومسح ملف التقدم/المؤقت؟"
+
+#: inc/importer/cob-taxonomy-importer.php:102
+msgid "Please select a CSV file to upload."
+msgstr "الرجاء تحديد ملف CSV لتحميله."
+
+#: inc/importer/cob-taxonomy-importer.php:124
+msgid ""
+"Import and update taxonomy terms (like developers or cities) from a CSV file."
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:128
+#, fuzzy, php-format
+#| msgid ""
+#| "A previous developer import for file (%s) was not completed (%s%%). You can "
+#| "resume or cancel it to start a new one."
+msgid ""
+"A previous import for %s (%s) was not completed. You can resume or cancel it."
+msgstr ""
+"لم يكتمل استيراد الملف (%s) السابق للمطور (%s%%). يمكنك استئنافه أو إلغاؤه لبدء "
+"استيراد جديد."
+
+#: inc/importer/cob-taxonomy-importer.php:135
+msgid "Select Type to Import"
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:142
+#, fuzzy
+#| msgid "Choose the layout for property listings."
+msgid "Choose whether you are importing Developers or Cities."
+msgstr "اختر التخطيط لقوائم العقارات."
+
+#: inc/importer/cob-taxonomy-importer.php:146
+#: inc/importer/cob_taxonomy_Import_compound.php:105
+msgid "Select CSV File"
+msgstr "حدد ملف CSV"
+
+#: inc/importer/cob-taxonomy-importer.php:150
+#: inc/importer/cob_taxonomy_Import_compound.php:109
+msgid "Import Language"
+msgstr "لغة الاستيراد"
+
+#: inc/importer/cob-taxonomy-importer.php:161
+msgid "Cancel and Reset"
+msgstr "إلغاء وإعادة تعيين"
+
+#: inc/importer/cob-taxonomy-importer.php:208
+#, fuzzy
+#| msgid "No file uploaded or upload error. Code: "
+msgid "No file uploaded or upload error."
+msgstr "لم يتم تحميل أي ملف أو حدث خطأ في التحميل. الرمز:"
+
+#: inc/importer/cob-taxonomy-importer.php:213
+msgid "Error handling uploaded file: "
+msgstr "خطأ في التعامل مع الملف الذي تم تحميله:"
+
+#: inc/importer/cob-taxonomy-importer.php:216
+#, fuzzy, php-format
+#| msgid "File uploaded successfully: %s to %s"
+msgid "File uploaded successfully to: %s"
+msgstr "تم تحميل الملف بنجاح: %s إلى %s"
+
+#: inc/importer/cob-taxonomy-importer.php:229
+msgid "Could not read header from CSV file."
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:232
+#, fuzzy
+#| msgid "CSV Headers: "
+msgid "CSV Headers Found: "
+msgstr "عناوين CSV:"
+
+#: inc/importer/cob-taxonomy-importer.php:237
+#, fuzzy
+#| msgid "Failed to open file to count rows."
+msgid "Failed to open uploaded file."
+msgstr "فشل في فتح الملف لحساب الصفوف."
+
+#: inc/importer/cob-taxonomy-importer.php:246
+#, php-format
+msgid ""
+"CRITICAL ERROR: Essential CSV column '%s' is missing from the file header. "
+"Import aborted."
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:251
+#, fuzzy, php-format
+#| msgid ""
+#| "Error: Required CSV column '%s' (for %s) not found in CSV header. Cannot "
+#| "proceed."
+msgid "Warning: Expected column '%s' for '%s' not found in CSV header."
+msgstr ""
+"خطأ: لم يتم العثور على عمود CSV المطلوب '%s' (لـ %s) في رأس CSV. لا يمكن "
+"المتابعة."
+
+#: inc/importer/cob-taxonomy-importer.php:271
+#, fuzzy, php-format
+#| msgid "File ready for processing. Total data rows (excluding header): %d"
+msgid "File ready. Total data rows to process: %d"
+msgstr "الملف جاهز للمعالجة. إجمالي صفوف البيانات (باستثناء العنوان): %d"
+
+#: inc/importer/cob-taxonomy-importer.php:279
+#, fuzzy
+#| msgid ""
+#| "No valid import process found or temporary file is missing. Please start over."
+msgid "No valid import process found. Please start over."
+msgstr ""
+"لم يتم العثور على عملية استيراد صالحة أو الملف المؤقت مفقود. يرجى البدء من جديد."
+
+#: inc/importer/cob-taxonomy-importer.php:283
+msgid "Import already completed."
+msgstr "اكتمل الاستيراد بالفعل."
+
+#: inc/importer/cob-taxonomy-importer.php:324
+#: inc/importer/cob_taxonomy_Import_compound.php:237
+#, fuzzy
+#| msgid "Import completed. Temporary file deleted."
+msgid "Import finished. Temporary file deleted."
+msgstr "اكتمل الاستيراد. تم حذف الملف المؤقت."
+
+#: inc/importer/cob-taxonomy-importer.php:338
+#, fuzzy
+#| msgid "Developer import process cancelled and status cleared."
+msgid "Import process cancelled and status cleared."
+msgstr "تم إلغاء عملية استيراد المطور ومسح الحالة."
+
+#: inc/importer/cob-taxonomy-importer.php:344
+#: inc/importer/cob_taxonomy_Import_compound.php:262
+#, fuzzy
+#| msgid "No resumable developer import process found."
+msgid "No resumable import process found."
+msgstr "لم يتم العثور على عملية استيراد مطور قابلة للاستئناف."
+
+#: inc/importer/cob-taxonomy-importer.php:350
+msgid "Unknown importer action."
+msgstr "إجراء استيراد غير معروف."
+
+#: inc/importer/cob-taxonomy-importer.php:405
+#, php-format
+msgid "Updated %s '%s'."
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:407
+#, fuzzy, php-format
+#| msgid "Developer '%s' (ID: %d) exists and data is current. Checking logo."
+msgid "%s '%s' exists and data is current. Checking image."
+msgstr "المطور '%s' (المعرف: %d) موجود والبيانات محدثة. جاري التحقق من الشعار."
+
+#: inc/importer/cob-taxonomy-importer.php:414
+#, fuzzy, php-format
+#| msgid "Error importing developer '%s': %s"
+msgid "Error importing %s '%s': %s"
+msgstr "خطأ في استيراد المطور '%s': %s"
+
+#: inc/importer/cob-taxonomy-importer.php:419
+#, php-format
+msgid "Imported new %s '%s'."
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:436
+#, php-format
+msgid "Linked image for '%s'."
+msgstr ""
+
+#: inc/importer/cob-taxonomy-importer.php:441
+#, fuzzy, php-format
+#| msgid "Failed to download logo for '%s' from %s. Error: %s"
+msgid "Failed to download image: %s"
+msgstr "فشل تنزيل الشعار لـ '%s' من %s. خطأ: %s"
+
+#: inc/importer/cob-taxonomy-importer.php:444
+#, fuzzy, php-format
+#| msgid "Invalid logo URL provided for '%s': %s"
+msgid "Invalid image URL provided: %s"
+msgstr "تم تقديم عنوان URL غير صالح للشعار لـ '%s': %s"
+
+#: inc/importer/cob_taxonomy_Import_compound.php:51
+#, fuzzy
+#| msgid "Compound Cover Image"
+msgid "Compound Taxonomy Importer"
+msgstr "صورة الكمبوند"
+
+#: inc/importer/cob_taxonomy_Import_compound.php:52
+msgid "Import Compounds (Taxonomy)"
+msgstr ""
+
+#: inc/importer/cob_taxonomy_Import_compound.php:68
+#, fuzzy
+#| msgid "Are you sure you want to cancel this meeting?"
+msgid "Are you sure you want to start a new import?"
+msgstr "هل أنت متأكد أنك تريد إلغاء هذا الاجتماع؟"
+
+#: inc/importer/cob_taxonomy_Import_compound.php:71
+#, fuzzy
+#| msgid "Please select a CSV file to upload."
+msgid "Please select a CSV file."
+msgstr "الرجاء تحديد ملف CSV لتحميله."
+
+#: inc/importer/cob_taxonomy_Import_compound.php:93
+msgid ""
+"Import and update \"Compound\" taxonomies, linking developers, cities, and "
+"downloading images."
+msgstr ""
+
+#: inc/importer/cob_taxonomy_Import_compound.php:95
+msgid "Performance Note:"
+msgstr ""
+
+#: inc/importer/cob_taxonomy_Import_compound.php:95
+#, php-format
+msgid ""
+"The batch size is set to %d for faster processing. You can adjust this value in "
+"the code if needed."
+msgstr ""
+
+#: inc/importer/cob_taxonomy_Import_compound.php:99
+#, fuzzy, php-format
+#| msgid ""
+#| "A previous developer import for file (%s) was not completed (%s%%). You can "
+#| "resume or cancel it to start a new one."
+msgid "A previous import for %s was not completed. You can resume or cancel it."
+msgstr ""
+"لم يكتمل استيراد الملف (%s) السابق للمطور (%s%%). يمكنك استئنافه أو إلغاؤه لبدء "
+"استيراد جديد."
+
+#: inc/importer/cob_taxonomy_Import_compound.php:160
+#, fuzzy
+#| msgid "No file uploaded or upload error. Code: "
+msgid "No file uploaded or an error occurred."
+msgstr "لم يتم تحميل أي ملف أو حدث خطأ في التحميل. الرمز:"
+
+#: inc/importer/cob_taxonomy_Import_compound.php:177
+#, fuzzy
+#| msgid "Failed to reopen temporary file for processing."
+msgid "Failed to open the uploaded file."
+msgstr "فشل إعادة فتح الملف المؤقت للمعالجة."
+
+#: inc/importer/cob_taxonomy_Import_compound.php:188
+#, fuzzy
+#| msgid "Preparation successful."
+msgid "Preparation successful. Total rows:"
+msgstr "تم التحضير بنجاح."
+
+#: inc/importer/cob_taxonomy_Import_compound.php:214
+msgid "Fatal Error: Column count mismatch."
+msgstr ""
+
+#: inc/importer/cob_taxonomy_Import_compound.php:267
+#, fuzzy
+#| msgid "Unknown importer action."
+msgid "Unknown action."
+msgstr "إجراء استيراد غير معروف."
+
+#: inc/importer/duplicate_tax.php:34
+#, fuzzy
+#| msgid "Merge Duplicate Compounds"
+msgid "Merge Duplicate Developers/Cities"
+msgstr "دمج الكمبوندات المكررة"
+
+#: inc/importer/duplicate_tax.php:35
+#, fuzzy
+#| msgid "Search Developers"
+msgid "Merge Developers/Cities"
+msgstr "بحث المطورين"
+
+#: inc/importer/duplicate_tax.php:51
+#: inc/taxonomy/compound/duplicate_compounds.php:48
+msgid "WARNING:"
+msgstr "تحذير:"
+
+#: inc/importer/duplicate_tax.php:51
+#, fuzzy
+#| msgid ""
+#| "This tool will make permanent changes to your database by reassigning posts "
+#| "and deleting taxonomy terms. It is crucial to have a complete backup of your "
+#| "website (files and database) before proceeding. Test on a staging environment "
+#| "first if possible."
+msgid ""
+"This tool will make permanent changes to your database by reassigning posts/"
+"objects and deleting taxonomy terms. It is crucial to have a complete backup of "
+"your website (files and database) before proceeding. Test on a staging "
+"environment first if possible."
+msgstr ""
+"ستُجري هذه الأداة تغييرات دائمة على قاعدة بياناتك بإعادة تعيين المنشورات وحذف "
+"مصطلحات التصنيف. من الضروري الاحتفاظ بنسخة احتياطية كاملة لموقعك الإلكتروني "
+"(الملفات وقاعدة البيانات) قبل المتابعة. اختبرها على بيئة تجريبية أولًا إن أمكن."
+
+#: inc/importer/duplicate_tax.php:54
+#, fuzzy
+#| msgid ""
+#| "This tool will scan the \"%s\" taxonomy for terms that have the exact same "
+#| "name and attempt to merge them."
+msgid ""
+"This tool will scan for terms with the exact same name within the \"Developer\" "
+"and \"City\" taxonomies and attempt to merge them."
+msgstr ""
+"ستقوم هذه الأداة بمسح تصنيف \"%s\" بحثًا عن المصطلحات التي تحمل الاسم نفسه تمامًا "
+"ومحاولة دمجها."
+
+#: inc/importer/duplicate_tax.php:55
+#, fuzzy
+#| msgid ""
+#| "For each group of duplicate-named terms, one term will be chosen as the "
+#| "\"primary\" term (usually the oldest or one with a cover image). Posts will "
+#| "be reassigned to this primary term, and the cover image (meta key: %s) will "
+#| "be transferred if the primary term doesn_t have one. Other duplicate terms "
+#| "will then be deleted."
+msgid ""
+"For each group of duplicate-named terms, one term will be chosen as the \"primary"
+"\" term. Associated objects will be reassigned to this primary term. If the "
+"primary term is missing a logo/image and a duplicate has one, it will be "
+"transferred. Other duplicate terms will then be deleted."
+msgstr ""
+"لكل مجموعة من المصطلحات ذات الأسماء المكررة، سيتم اختيار مصطلح واحد ليكون "
+"المصطلح \"الأساسي\" (عادةً الأقدم أو الذي يحمل صورة غلاف). ستُعاد تخصيص المنشورات "
+"لهذا المصطلح الأساسي، وسيتم نقل صورة الغلاف (مفتاح التعريف: %s) إذا لم يكن "
+"للمصطلح الأساسي صورة غلاف. بعد ذلك، سيتم حذف المصطلحات المكررة الأخرى."
+
+#: inc/importer/duplicate_tax.php:62
+#, fuzzy
+#| msgid "I have backed up my database and understand the risks."
+msgid ""
+"I have backed up my database and understand the risks involved in merging terms."
+msgstr "لقد قمت بعمل نسخة احتياطية لقاعدة البيانات الخاصة بي وأدرك المخاطر."
+
+#: inc/importer/duplicate_tax.php:65
+#, fuzzy
+#| msgid "Find and Merge Duplicate Compounds"
+msgid "Find and Merge All Duplicates (Developers & Cities)"
+msgstr "البحث عن الكمبوندات المكررة ودمجها"
+
+#: inc/importer/duplicate_tax.php:83
+#: inc/taxonomy/compound/duplicate_compounds.php:80
+msgid "Nonce verification failed. Action aborted."
+msgstr "فشل التحقق من Nonce. تم إلغاء الإجراء."
+
+#: inc/importer/duplicate_tax.php:87
+#: inc/taxonomy/compound/duplicate_compounds.php:84
+msgid ""
+"You must confirm that you have backed up your database and understand the risks."
+msgstr ""
+"يجب عليك التأكد من أنك قمت بعمل نسخة احتياطية لقاعدة البيانات الخاصة بك وفهم "
+"المخاطر."
+
+#: inc/importer/duplicate_tax.php:91
+#: inc/taxonomy/compound/duplicate_compounds.php:88
+msgid "You do not have sufficient permissions to perform this action."
+msgstr "ليس لديك الأذونات الكافية لأداء هذا الإجراء."
+
+#: inc/importer/duplicate_tax.php:95
+#: inc/taxonomy/compound/duplicate_compounds.php:92
+msgid "Merge Process Log:"
+msgstr "سجل عملية الدمج:"
+
+#: inc/importer/duplicate_tax.php:99
+#, fuzzy
+#| msgid "Parent Developer"
+msgid "Processing Developers..."
+msgstr "المطور الاب"
+
+#: inc/importer/duplicate_tax.php:105
+msgid "Processing Cities..."
+msgstr ""
+
+#: inc/importer/duplicate_tax.php:125
+#: inc/taxonomy/compound/duplicate_compounds.php:111
+#, php-format
+msgid "Starting duplicate term check for taxonomy: %s"
+msgstr "بدء التحقق من المصطلح المكرر للتصنيف: %s"
+
+#: inc/importer/duplicate_tax.php:128
+#, fuzzy, php-format
+#| msgid "Error: Taxonomy \"%s\" does not exist."
+msgid "Error: Taxonomy \"%s\" does not exist. Skipping."
+msgstr "خطأ: التصنيف \"%s\" غير موجود."
+
+#: inc/importer/duplicate_tax.php:139
+#, fuzzy, php-format
+#| msgid "No terms found or an error occurred while fetching terms."
+msgid "No terms found in \"%s\" or an error occurred."
+msgstr "لم يتم العثور على أي مصطلحات أو حدث خطأ أثناء جلب المصطلحات."
+
+#: inc/importer/duplicate_tax.php:154
+#, fuzzy, php-format
+#| msgid "Found %d terms with the name: \"%s\""
+msgid "Found %d terms in \"%s\" with the name: \"%s\""
+msgstr "تم العثور على %d مصطلحًا باسم: \"%s\""
+
+#: inc/importer/duplicate_tax.php:172
+#, fuzzy, php-format
+#| msgid "Selected term ID %d as primary because it has a cover image."
+msgid "Selected term ID %d as primary for \"%s\" because it has an image."
+msgstr "تم تحديد المصطلح ID %d باعتباره أساسيًا لأنه يحتوي على صورة غلاف."
+
+#: inc/importer/duplicate_tax.php:178
+#, fuzzy, php-format
+#| msgid "Designated Term ID %d (Slug: %s) as the primary term to keep."
+msgid "Designated Term ID %d (Slug: %s) as the primary for \"%s\"."
+msgstr ""
+"تم تعيين معرف المصطلح %d (Slug: %s) باعتباره المصطلح الأساسي الذي يجب الاحتفاظ "
+"به."
+
+#: inc/importer/duplicate_tax.php:187
+#, fuzzy, php-format
+#| msgid "Processing duplicate Term ID %d (Slug: %s)..."
+msgid "Processing duplicate Term ID %d (Slug: %s) for \"%s\"..."
+msgstr "جاري معالجة معرف المصطلح المكرر %d (Slug: %s)..."
+
+#: inc/importer/duplicate_tax.php:194
+#, php-format
+msgid ""
+"Warning: Could not determine object types for taxonomy %s. Falling back to \"post"
+"\", \"page\". Review if other post types need updating."
+msgstr ""
+
+#: inc/importer/duplicate_tax.php:217
+#, fuzzy, php-format
+#| msgid "Failed to add primary term %d to Post ID %d. Error: %s"
+msgid "Failed to set primary term %d for Object ID %d. Error: %s"
+msgstr "تعذّرت إضافة المصطلح الأساسي %d إلى مُعرّف المنشور %d. الخطأ: %s"
+
+#: inc/importer/duplicate_tax.php:219
+#, fuzzy, php-format
+#| msgid "Reassigned Post ID %d from term %d to primary term %d."
+msgid "Reassigned Object ID %d from term %d to primary term %d."
+msgstr "تم إعادة تعيين معرف المنشور %d من المصطلح %d إلى المصطلح الأساسي %d."
+
+#: inc/importer/duplicate_tax.php:224
+#, fuzzy
+#| msgid "No posts found associated with this duplicate term."
+msgid "No objects found associated with this duplicate term."
+msgstr "لم يتم العثور على أي مشاركات مرتبطة بهذا المصطلح المكرر."
+
+#: inc/importer/duplicate_tax.php:233
+#, fuzzy, php-format
+#| msgid ""
+#| "Transferred cover image (Attachment ID: %s) from duplicate term %d to primary "
+#| "term %d."
+msgid ""
+"Transferred image (Attachment ID: %s) from duplicate term %d to primary term %d."
+msgstr ""
+"تم نقل صورة الغلاف (معرف المرفق: %s) من المصطلح المكرر %d إلى المصطلح الأساسي %d."
+
+#: inc/importer/duplicate_tax.php:241
+#: inc/taxonomy/compound/duplicate_compounds.php:224
+msgid "Attempting to delete the merged (duplicate) terms..."
+msgstr "محاولة حذف الشروط المدمجة (المكررة)..."
+
+#: inc/importer/duplicate_tax.php:245
+#: inc/taxonomy/compound/duplicate_compounds.php:228
+#, php-format
+msgid "Failed to delete term ID %d. Error: %s"
+msgstr "فشل حذف معرف المصطلح %d. الخطأ: %s"
+
+#: inc/importer/duplicate_tax.php:247
+#, fuzzy, php-format
+#| msgid "Failed to delete term ID %d (term might not exist or is default)."
+msgid ""
+"Failed to delete term ID %d (term might not exist, be default, or have children)."
+msgstr "فشل حذف معرف المصطلح %d (قد لا يكون المصطلح موجودًا أو أنه افتراضي)."
+
+#: inc/importer/duplicate_tax.php:249
+#: inc/taxonomy/compound/duplicate_compounds.php:232
+#, php-format
+msgid "Successfully deleted term ID %d."
+msgstr "تم حذف معرف المصطلح %d بنجاح."
+
+#: inc/importer/duplicate_tax.php:259
+#, fuzzy, php-format
+#| msgid "No duplicate terms (by name) found in this taxonomy."
+msgid "No duplicate terms (by name) found in taxonomy \"%s\"."
+msgstr "لم يتم العثور على مصطلحات مكررة (حسب الاسم) في هذا التصنيف."
+
+#: inc/importer/duplicate_tax.php:261
+#, fuzzy, php-format
+#| msgid ""
+#| "Merge process completed. Total duplicate terms (excluding primaries) "
+#| "processed for deletion: %d"
+msgid ""
+"Merge process for \"%s\" completed. Total duplicate terms (excluding primaries) "
+"processed for deletion: %d"
+msgstr ""
+"اكتملت عملية الدمج. إجمالي المصطلحات المكررة (باستثناء المصطلحات الأساسية) التي "
+"تمت معالجتها للحذف: %d"
+
+#: inc/importer/duplicate_tax.php:263
+#, fuzzy
+#| msgid ""
+#| "Please flush your permalinks by going to Settings > Permalinks and clicking "
+#| "\"Save Changes\"."
+msgid ""
+"If any terms were merged, please flush your permalinks by going to Settings > "
+"Permalinks and clicking \"Save Changes\"."
+msgstr ""
+"يرجى مسح الروابط الدائمة الخاصة بك عن طريق الذهاب إلى الإعدادات > الروابط "
+"الدائمة والنقر فوق \"حفظ التغييرات\"."
+
+#: inc/metaboxes/job-metaboxes.php:6 template-parts/hiring/jobs-posts.php:30
+msgid "Job Qualifications"
+msgstr "المؤهلات الوظيفية"
+
+#: inc/metaboxes/job-metaboxes.php:33 inc/metaboxes/job-metaboxes.php:39
+#: inc/metaboxes/job-metaboxes.php:50
+msgid "Remove"
+msgstr "حذف"
+
+#: inc/metaboxes/job-metaboxes.php:43
+msgid "Add Qualification"
+msgstr "أضف المؤهل"
+
+#: inc/metaboxes/property-metaboxes.php:26 inc/metaboxes/property-metaboxes.php:137
+#: inc/metaboxes/property-metaboxes.php:177
+msgid "Parent Project"
+msgstr "الكمبوند الاساسي"
+
+#: inc/metaboxes/property-metaboxes.php:57
+msgid "Select Parent Project:"
+msgstr "حدد الكمبوند:"
+
+#: inc/metaboxes/property-metaboxes.php:59
+msgid "-- None --"
+msgstr "-- لا أحد --"
+
+#: inc/metaboxes/property-metaboxes.php:87
+#: inc/post-types/properties/properties.php:25
+msgid "Compound"
+msgstr "الكمبوند"
+
+#: inc/metaboxes/property-metaboxes.php:108
+msgid "None"
+msgstr "لا أحد"
+
+#: inc/metaboxes/property-metaboxes.php:140
+#: inc/metaboxes/property-metaboxes.php:180
+msgid "-- No Change --"
+msgstr "-- لا تغيير --"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:5
+#: inc/post-types/jobs/job_applicants_menu_page.php:6
+#: inc/post-types/jobs/job_applicants_menu_page.php:34
+msgid "Job Applicants"
+msgstr "المتقدمين للوظيفة"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:29
+msgid "Status updated successfully."
+msgstr "تم تحديث الحالة بنجاح."
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:39
+msgid "Job ID"
+msgstr "الرقم المرجعي للوظيفة"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:43
+msgid "Resume"
+msgstr "سيرة ذاتية"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:44
+msgid "Additional Details"
+msgstr "تفاصيل إضافية"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:45
+msgid "Submission Date"
+msgstr "تاريخ التقديم"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:46
+msgid "Status"
+msgstr "الحالة"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:47
+msgid "Action"
+msgstr "الاجراء"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:61
+msgid "Download"
+msgstr "تحميل"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:63
+#: inc/search/create_search_table.php:43 inc/search/create_search_table.php:195
+msgid "N/A"
+msgstr "لا يوجد"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:74
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:75
+msgid "Approved"
+msgstr "موافقة"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:76
+msgid "Rejected"
+msgstr "مرفوض"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:78
+msgid "Update"
+msgstr "تحديث"
+
+#: inc/post-types/jobs/job_applicants_menu_page.php:85
+msgid "No applicants found."
+msgstr "لم يتم العثور على المتقدمين."
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:4
+msgctxt "taxonomy general name"
+msgid "Job Tags"
+msgstr "العلامات الوظيفية"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:5
+msgctxt "taxonomy singular name"
+msgid "Job Tag"
+msgstr "علامة الوظيفة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:6
+msgid "Search Job Tags"
+msgstr "البحث عن العلامات الوظيفية"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:7
+msgid "Popular Job Tags"
+msgstr "العلامات الوظيفية المشهورة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:8
+msgid "All Job Tags"
+msgstr "جميع العلامات الوظيفية"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:11
+msgid "Edit Job Tag"
+msgstr "تحرير علامة الوظيفة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:12
+msgid "Update Job Tag"
+msgstr "تحديث علامة الوظيفة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:13
+msgid "Add New Job Tag"
+msgstr "إضافة علامة وظيفة جديدة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:14
+msgid "New Job Tag Name"
+msgstr "اسم علامة الوظيفة الجديدة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:15
+msgid "Separate job tags with commas"
+msgstr "علامات مهمة منفصلة بفواصل"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:16
+msgid "Add or remove job tags"
+msgstr "إضافة أو إزالة علامات الوظيفة"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:17
+msgid "Choose from the most used job tags"
+msgstr "اختر من بين علامات الوظائف الأكثر استخدامًا"
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:18
+msgid "No job tags found."
+msgstr "لم يتم العثور على علامات الوظيفة."
+
+#: inc/post-types/jobs/job_tags_taxonomy.php:19
+msgid "Job Tags"
+msgstr "العلامات الوظيفية"
+
+#: inc/post-types/jobs/jobs.php:5
+msgctxt "Post Type General Name"
+msgid "Jobs"
+msgstr "وظائف"
+
+#: inc/post-types/jobs/jobs.php:6
+msgctxt "Post Type Singular Name"
+msgid "Job"
+msgstr "وظيفة"
+
+#: inc/post-types/jobs/jobs.php:7
+msgid "Jobs"
+msgstr "وظائف"
+
+#: inc/post-types/jobs/jobs.php:8 inc/post-types/jobs/jobs.php:34
+msgid "Job"
+msgstr "وظيفة"
+
+#: inc/post-types/jobs/jobs.php:9
+msgid "Job Archives"
+msgstr "أرشيف الوظائف"
+
+#: inc/post-types/jobs/jobs.php:10
+msgid "Job Attributes"
+msgstr "تفاصيل الوظيفة"
+
+#: inc/post-types/jobs/jobs.php:11
+msgid "Parent Job:"
+msgstr "الوظيفة الأساسية :"
+
+#: inc/post-types/jobs/jobs.php:12
+msgid "All Jobs"
+msgstr "جميع الوظائف"
+
+#: inc/post-types/jobs/jobs.php:13
+msgid "Add New Job"
+msgstr "إضافة وظيفة جديدة"
+
+#: inc/post-types/jobs/jobs.php:14
+msgid "Add New"
+msgstr "اضف جديد"
+
+#: inc/post-types/jobs/jobs.php:15
+msgid "New Job"
+msgstr "وظيفة جديدة"
+
+#: inc/post-types/jobs/jobs.php:16
+msgid "Edit Job"
+msgstr "تحرير الوظيفة"
+
+#: inc/post-types/jobs/jobs.php:17
+msgid "Update Job"
+msgstr "تحديث الوظيفة"
+
+#: inc/post-types/jobs/jobs.php:18
+msgid "View Job"
+msgstr "عرض الوظيفة"
+
+#: inc/post-types/jobs/jobs.php:19
+msgid "View Jobs"
+msgstr "عرض الوظائف"
+
+#: inc/post-types/jobs/jobs.php:20
+msgid "Search Job"
+msgstr "بحث عن وظيفة"
+
+#: inc/post-types/jobs/jobs.php:21
+msgid "Not found"
+msgstr "لم يتم العثور عليه"
+
+#: inc/post-types/jobs/jobs.php:22
+msgid "Not found in Trash"
+msgstr "لم يتم العثور عليه في سلة المهملات"
+
+#: inc/post-types/jobs/jobs.php:23
+msgid "Featured Image"
+msgstr "صورة مميزة"
+
+#: inc/post-types/jobs/jobs.php:24
+msgid "Set featured image"
+msgstr "تعيين الصورة المميزة"
+
+#: inc/post-types/jobs/jobs.php:25
+msgid "Remove featured image"
+msgstr "إزالة الصورة المميزة"
+
+#: inc/post-types/jobs/jobs.php:26
+msgid "Use as featured image"
+msgstr "استخدم كصورة مميزة"
+
+#: inc/post-types/jobs/jobs.php:27
+msgid "Insert into job"
+msgstr "أدخل في الوظيفة"
+
+#: inc/post-types/jobs/jobs.php:28
+msgid "Uploaded to this job"
+msgstr "تم الرفع إلى هذه الوظيفة"
+
+#: inc/post-types/jobs/jobs.php:29
+msgid "Jobs list"
+msgstr "قائمة الوظائف"
+
+#: inc/post-types/jobs/jobs.php:30
+msgid "Jobs list navigation"
+msgstr "التنقل في قائمة الوظائف"
+
+#: inc/post-types/jobs/jobs.php:31
+msgid "Filter jobs list"
+msgstr "تصفية قائمة الوظائف"
+
+#: inc/post-types/jobs/jobs.php:35
+msgid "Job listings for the site"
+msgstr "قوائم الوظائف للموقع"
+
+#: inc/post-types/jobs/submit_job_application.php:5
+msgid "Verification failed, please try again."
+msgstr "فشل التحقق، يرجى المحاولة مرة أخرى."
+
+#: inc/post-types/jobs/submit_job_application.php:42
+msgid "!Thank you for applying for the job"
+msgstr "!شكرًا لك على التقدم للوظيفة"
+
+#: inc/post-types/jobs/submit_job_application.php:44
+msgid "An error occurred while saving your request, please try again."
+msgstr "حدث خطأ أثناء حفظ طلبك، يرجى المحاولة مرة أخرى."
+
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:48
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:91
+msgid "Select Developer"
+msgstr "حدد المطور"
+
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:58
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:105
+msgid "Select City"
+msgstr "اختر المدينة"
+
+#: inc/post-types/properties/cob_add_compounds_developer_city.php:136
+msgid "Custom Fields"
+msgstr "الحقول المخصصة"
+
+#: inc/post-types/properties/cob_property_gallery.php:6
+msgid "Gallery Images"
+msgstr "معرض الصور"
+
+#: inc/post-types/properties/cob_property_gallery.php:32
+msgid "Add Images"
+msgstr "إضافة الصور"
+
+#: inc/post-types/properties/cob_property_gallery.php:75
+msgid "Select Images"
+msgstr "حدد الصور"
+
+#: inc/post-types/properties/cob_property_gallery.php:76
+msgid "Attach Images"
+msgstr "إرفاق الصور"
+
+#: inc/post-types/properties/dido_theme_property_developer_editor.php:8
+#: inc/post-types/properties/dido_theme_property_developer_editor.php:34
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/post-types/properties/dido_theme_property_developer_editor.php:22
+#: inc/post-types/properties/dido_theme_property_developer_editor.php:47
+msgid "The description is not prominent by default, but some themes may show it."
+msgstr "الوصف ليس بارزًا بشكل افتراضي، ولكن قد تظهره بعض السمات."
+
+#: inc/post-types/properties/properties.php:24
+#: inc/post-types/properties/properties.php:34
+#: template-parts/areas/pagination-section.php:95 template-parts/home/areas.php:127
+msgid "Compounds"
+msgstr "كمبوندات"
+
+#: inc/post-types/properties/properties.php:26
+msgid "Search Compounds"
+msgstr "البحث في الكمبوندات"
+
+#: inc/post-types/properties/properties.php:27
+msgid "All Compounds"
+msgstr "كل الكمبوندات"
+
+#: inc/post-types/properties/properties.php:28
+msgid "Parent Compound"
+msgstr "الكمبوند الاب"
+
+#: inc/post-types/properties/properties.php:29
+msgid "Parent Compound:"
+msgstr "الكمبوند الاب"
+
+#: inc/post-types/properties/properties.php:30
+msgid "Edit Compound"
+msgstr "تحرير كمبوند"
+
+#: inc/post-types/properties/properties.php:31
+msgid "Update Compound"
+msgstr "تحديث الكمبوند"
+
+#: inc/post-types/properties/properties.php:32
+msgid "Add New Compound"
+msgstr "إضافة كبموند جديد"
+
+#: inc/post-types/properties/properties.php:33
+msgid "New Compound Name"
+msgstr "اسم الكمبوند الجديد"
+
+#: inc/post-types/properties/properties.php:62
+#: template-parts/areas/pagination-section.php:96 template-parts/home/areas.php:128
+#: template-parts/home/compounds.php:97
+#: template-parts/taxonomy-city/featured.php:79
+#: template-parts/taxonomy-city/sup-taxonomy.php:56
+msgid "Properties"
+msgstr "العقارات"
+
+#: inc/post-types/properties/properties.php:63
+msgid "Property"
+msgstr "عقار"
+
+#: inc/post-types/properties/properties.php:64
+#: inc/post-types/properties/properties.php:65
+msgid "Add New Property"
+msgstr "إضافة عقار جديد"
+
+#: inc/post-types/properties/properties.php:66
+msgid "Edit Property"
+msgstr "تحرير العقار"
+
+#: inc/post-types/properties/properties.php:67
+msgid "New Property"
+msgstr "عقار جديد"
+
+#: inc/post-types/properties/properties.php:68
+msgid "View Property"
+msgstr "عرض العقار"
+
+#: inc/post-types/properties/properties.php:69
+msgid "All Properties"
+msgstr "جميع العقارات"
+
+#: inc/post-types/properties/properties.php:70
+msgid "Search Properties"
+msgstr "البحث عن العقارات"
+
+#: inc/post-types/properties/properties.php:71
+msgid "No properties found."
+msgstr "لم يتم العثور على خصائص."
+
+#: inc/post-types/properties/properties.php:95
+msgid "Factories"
+msgstr "المصانع"
+
+#: inc/post-types/properties/properties.php:96
+msgid "Factory"
+msgstr "مصنع"
+
+#: inc/post-types/properties/properties.php:97
+#: inc/post-types/properties/properties.php:98
+msgid "Add New Factory"
+msgstr "إضافة مصنع جديد"
+
+#: inc/post-types/properties/properties.php:99
+msgid "Edit Factory"
+msgstr "تحرير المصنع"
+
+#: inc/post-types/properties/properties.php:100
+msgid "New Factory"
+msgstr "مصنع جديد"
+
+#: inc/post-types/properties/properties.php:101
+msgid "View Factory"
+msgstr "عرض المصنع"
+
+#: inc/post-types/properties/properties.php:102
+msgid "All Factories"
+msgstr "كل المصانع"
+
+#: inc/post-types/properties/properties.php:103
+msgid "Search Factories"
+msgstr "بحث عن مصنع"
+
+#: inc/post-types/properties/properties.php:104
+msgid "No factories found."
+msgstr "المصنع غير موجود."
+
+#: inc/post-types/properties/properties.php:126
+msgid "Lands"
+msgstr "الاراضي"
+
+#: inc/post-types/properties/properties.php:127
+msgid "Land"
+msgstr "ارض"
+
+#: inc/post-types/properties/properties.php:128
+#: inc/post-types/properties/properties.php:129
+msgid "Add New Land"
+msgstr "اضف ارض جديد"
+
+#: inc/post-types/properties/properties.php:130
+msgid "Edit Land"
+msgstr "تحرير ارض"
+
+#: inc/post-types/properties/properties.php:131
+msgid "New Land"
+msgstr "أرض جديدة"
+
+#: inc/post-types/properties/properties.php:132
+msgid "View Land"
+msgstr "عرض الارض"
+
+#: inc/post-types/properties/properties.php:133
+msgid "All Lands"
+msgstr "كل الأراضي "
+
+#: inc/post-types/properties/properties.php:134
+msgid "Search Lands"
+msgstr "البحث في الأراضي "
+
+#: inc/post-types/properties/properties.php:135
+msgid "No lands found."
+msgstr "لم يتم العثور علي أراضي."
+
+#: inc/post-types/properties/properties.php:168
+#: inc/post-types/properties/properties.php:179
+msgid "Cities"
+msgstr "المدن"
+
+#: inc/post-types/properties/properties.php:170
+msgid "Search Cities"
+msgstr "البحث في المدن"
+
+#: inc/post-types/properties/properties.php:171
+msgid "All Cities"
+msgstr "كل المدن"
+
+#: inc/post-types/properties/properties.php:172
+msgid "Parent City"
+msgstr "المدينة الأم"
+
+#: inc/post-types/properties/properties.php:173
+msgid "Parent City:"
+msgstr "المدينة الأم:"
+
+#: inc/post-types/properties/properties.php:174
+msgid "Edit City"
+msgstr "تحرير المدينة"
+
+#: inc/post-types/properties/properties.php:175
+msgid "View City"
+msgstr "شاهد المدينة"
+
+#: inc/post-types/properties/properties.php:176
+msgid "Update City"
+msgstr "تحديث المدينة"
+
+#: inc/post-types/properties/properties.php:177
+msgid "Add New City"
+msgstr "اصافة مدينة جديدة"
+
+#: inc/post-types/properties/properties.php:178
+msgid "New City Name"
+msgstr "اسم المدينة الجديد"
+
+#: inc/post-types/properties/properties.php:180
+msgid "Separate cities with commas"
+msgstr "افصل بين المدن بفواصل"
+
+#: inc/post-types/properties/properties.php:190
+msgid "Search Developers"
+msgstr "بحث المطورين"
+
+#: inc/post-types/properties/properties.php:191
+msgid "All Developers"
+msgstr "كل المطورين"
+
+#: inc/post-types/properties/properties.php:192
+msgid "Parent Developer"
+msgstr "المطور الاب"
+
+#: inc/post-types/properties/properties.php:193
+msgid "Parent Developer:"
+msgstr "المطور الاب :"
+
+#: inc/post-types/properties/properties.php:194
+msgid "Edit Developer"
+msgstr "تحرير المطور"
+
+#: inc/post-types/properties/properties.php:195
+msgid "View Developer"
+msgstr "عرض المطور"
+
+#: inc/post-types/properties/properties.php:196
+msgid "Update Developer"
+msgstr "تحديث المطور"
+
+#: inc/post-types/properties/properties.php:197
+msgid "Add New Developer"
+msgstr "إضافة مطور جديد"
+
+#: inc/post-types/properties/properties.php:198
+msgid "New Developer Name"
+msgstr "اسم المطور الجديد"
+
+#: inc/post-types/properties/properties.php:200
+msgid "Separate Developers with commas"
+msgstr "فصل المطورين بفواصل"
+
+#: inc/post-types/properties/properties.php:208
+#: inc/post-types/properties/properties.php:217
+msgid "Finishing Types"
+msgstr "أنواع التشطيب"
+
+#: inc/post-types/properties/properties.php:209
+msgid "Finishing Type"
+msgstr "نوع التشطيب"
+
+#: inc/post-types/properties/properties.php:210
+msgid "Search Finishing Types"
+msgstr "البحث عن أنواع التشطيب"
+
+#: inc/post-types/properties/properties.php:211
+msgid "All Finishing Types"
+msgstr "جميع أنواع التشطيب"
+
+#: inc/post-types/properties/properties.php:212
+msgid "Edit Finishing Type"
+msgstr "تحرير نوع التشطيب"
+
+#: inc/post-types/properties/properties.php:213
+msgid "View Finishing Type"
+msgstr "عرض نوع التشطيب"
+
+#: inc/post-types/properties/properties.php:214
+msgid "Update Finishing Type"
+msgstr "تحديث نوع التشطيب"
+
+#: inc/post-types/properties/properties.php:215
+msgid "Add New Finishing Type"
+msgstr "إضافة نوع تشطيب جديد"
+
+#: inc/post-types/properties/properties.php:216
+msgid "New Finishing Type Name"
+msgstr "اسم نوع التشطيب الجديد"
+
+#: inc/post-types/properties/properties.php:218
+msgid "Separate Finishing Types with commas"
+msgstr "أنواع التشطيب المنفصلة باستخدام الفواصل"
+
+#: inc/post-types/properties/properties.php:226
+msgid "Types"
+msgstr "الأنواع"
+
+#: inc/post-types/properties/properties.php:227
+msgid "Type"
+msgstr "نوع"
+
+#: inc/post-types/services.php:14
+msgid "Services"
+msgstr "الخدمات"
+
+#: inc/post-types/services.php:15
+msgid "Service"
+msgstr "الخدمة"
+
+#: inc/post-types/services.php:16 inc/post-types/services.php:17
+msgid "Add New Service"
+msgstr "إضافة خدمة جديدة"
+
+#: inc/post-types/services.php:18
+msgid "Edit Service"
+msgstr "تحرير الخدمة"
+
+#: inc/post-types/services.php:19
+msgid "New Service"
+msgstr "خدمة جديدة"
+
+#: inc/post-types/services.php:20
+msgid "View Service"
+msgstr "عرض الخدمة"
+
+#: inc/post-types/services.php:21
+msgid "All Services"
+msgstr "All Services"
+
+#: inc/post-types/services.php:22
+msgid "Search Services"
+msgstr "خدمات البحث"
+
+#: inc/post-types/services.php:23
+msgid "No Services found."
+msgstr "لم يتم العثور على أي خدمات."
+
+#: inc/post-types/services.php:62
+msgid "Service SVG Icon"
+msgstr "أيقونة الخدمة SVG"
+
+#: inc/post-types/services.php:83
+msgid "Insert SVG Code:"
+msgstr "أدخل كود SVG:"
+
+#: inc/post-types/services.php:86
+msgid "Paste valid SVG code including <svg> tags. Example:"
+msgstr "الصق رمز SVG صالحًا يتضمن &lt;svg&gt; العلامات. مثال:"
+
+#: inc/post-types/sliders.php:5
+msgid "Sliders"
+msgstr "السلايدرات"
+
+#: inc/post-types/sliders.php:6
+msgid "Slider"
+msgstr "السلايدر"
+
+#: inc/post-types/sliders.php:7 inc/post-types/sliders.php:8
+msgid "Add New Slider"
+msgstr "اصافة سلايدر جديدة"
+
+#: inc/post-types/sliders.php:9
+msgid "Edit Slider"
+msgstr "تعديل السلايدر"
+
+#: inc/post-types/sliders.php:10
+msgid "New Slider"
+msgstr "سلايدر جديد"
+
+#: inc/post-types/sliders.php:11
+msgid "View Slider"
+msgstr "مشاهدة السلايدر"
+
+#: inc/post-types/sliders.php:12
+msgid "All Sliders"
+msgstr "كل السلايدرات"
+
+#: inc/post-types/sliders.php:13
+msgid "Search Sliders"
+msgstr "البحث في السلايدر"
+
+#: inc/post-types/sliders.php:14
+msgid "No Sliders found."
+msgstr "لم يتم العثور علي سلايدر."
+
+#: inc/real-estate-expert/add_real_estate_expert_role.php:6
+msgid "Real Estate Expert"
+msgstr "خبير عقاري"
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:5
+msgid "Real Estate Expert Information"
+msgstr "معلومات الخبراء العقاريين"
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:9
+#: template-parts/button-container.php:167 template-parts/button-container.php:224
+#: template-parts/contact-section.php:14
+#: template-parts/factories-post/left-landing-flat.php:81
+#: template-parts/fixed-icons.php:67 template-parts/fixed-icons.php:211
+msgid "Phone Number"
+msgstr "رقم التليفون"
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:16
+msgid "Enter your phone number."
+msgstr "أدخل رقم هاتفك."
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:22
+msgid "Job Title"
+msgstr "مسمى وظيفي"
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:29
+msgid "Enter your Job Title."
+msgstr "أدخل المسمى الوظيفي الخاص بك."
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:35
+msgid "Profile Image"
+msgstr "صورة الملف الشخصي"
+
+#: inc/real-estate-expert/real_estate_expert_extra_profile_fields.php:42
+msgid "Enter the URL of your profile image."
+msgstr "أدخل عنوان URL لصورة ملفك الشخصي."
+
+#: inc/redux/settings/appearance-settings.php:15
+msgid "Appearance Settings"
+msgstr "إعدادات المظهر"
+
+#: inc/redux/settings/appearance-settings.php:17
+msgid "Customize the site appearance."
+msgstr "تخصيص مظهر الموقع."
+
+#: inc/redux/settings/child/footer-settings.php:15
+msgid "Footer Settings"
+msgstr "إعدادات التذييل"
+
+#: inc/redux/settings/child/footer-settings.php:22
+msgid "Footer Text"
+msgstr "نص حقوق النشر في الفوتر"
+
+#: inc/redux/settings/child/footer-settings.php:23
+msgid "© 2024 Capital of Business. All rights reserved."
+msgstr "© 2024 كابيتال أوف بيزنس. جميع الحقوق محفوظة."
+
+#: inc/redux/settings/child/header-settings.php:15
+msgid "Header Settings"
+msgstr "اعدادت الترويسة"
+
+#: inc/redux/settings/child/header-settings.php:22
+msgid "Header Background"
+msgstr "خلفية الترويسة"
+
+#: inc/redux/settings/child/header-settings.php:28
+msgid "Sticky Header"
+msgstr "الهيدر الستيكي"
+
+#: inc/redux/settings/child/typography.php:15
+msgid "Typography"
+msgstr "الطباعة"
+
+#: inc/redux/settings/child/typography.php:22
+msgid "Body Font"
+msgstr "الخط"
+
+#: inc/redux/settings/general-settings.php:16
+msgid "General Settings"
+msgstr "الاعدادت الاساسية"
+
+#: inc/redux/settings/general-settings.php:18
+msgid "Manage general theme options."
+msgstr "إدارة خيارات القالب العامة ."
+
+#: inc/redux/settings/general-settings.php:24
+msgid "Site Logo"
+msgstr "شعار الموقع"
+
+#: inc/redux/settings/general-settings.php:25
+msgid "Upload your site logo."
+msgstr "قم بتحميل شعار موقعك."
+
+#: inc/redux/settings/general-settings.php:30
+msgid "Favicon"
+msgstr "الرمز المفضل"
+
+#: inc/redux/settings/general-settings.php:31
+msgid "Upload a 32x32px favicon."
+msgstr "قم بتحميل أيقونة مفضلة بحجم 32 × 32 بكسل."
+
+#: inc/redux/settings/property-settings.php:15
+msgid "Property Settings"
+msgstr "إعدادات الملكية"
+
+#: inc/redux/settings/property-settings.php:17
+msgid "Manage real estate property options."
+msgstr "إدارة خيارات الملكية العقارية."
+
+#: inc/redux/settings/property-settings.php:23
+msgid "Default Property Image"
+msgstr "صورة الخاصية الافتراضية"
+
+#: inc/redux/settings/property-settings.php:24
+msgid "Upload a fallback image for properties."
+msgstr "قم بتحميل صورة احتياطية للخصائص."
+
+#: inc/redux/settings/property-settings.php:29
+msgid "Listing Layout"
+msgstr "تخطيط القائمة"
+
+#: inc/redux/settings/property-settings.php:30
+msgid "Choose the layout for property listings."
+msgstr "اختر التخطيط لقوائم العقارات."
+
+#: inc/redux/settings/social.php:11
+msgid "Social Media"
+msgstr "وسائل التواصل الاجتماعي"
+
+#: inc/redux/settings/social.php:19
+msgid "Enable Social Menu"
+msgstr "تمكين القائمة الاجتماعية"
+
+#: inc/redux/settings/social.php:27
+msgid "Social Media Links"
+msgstr "روابط وسائل التواصل الاجتماعي"
+
+#: inc/redux/settings/social.php:28
+msgid "Add social media links. Use the format: platform|URL"
+msgstr "إضافة روابط وسائل التواصل الاجتماعي. استخدم التنسيق: النظام الأساسي|URL"
+
+#: inc/search/create_search_table.php:36
+msgid "Loading results..."
+msgstr ""
+
+#: inc/search/create_search_table.php:37 inc/search/create_search_table.php:215
+#, fuzzy
+#| msgid "No properties found."
+msgid "No properties found matching your criteria."
+msgstr "لم يتم العثور على خصائص."
+
+#: inc/search/create_search_table.php:38
+#, fuzzy
+#| msgid "An error occurred while saving your request, please try again."
+msgid "An error occurred while searching. Please try again."
+msgstr "حدث خطأ أثناء حفظ طلبك، يرجى المحاولة مرة أخرى."
+
+#: inc/search/create_search_table.php:39 inc/search/create_search_table.php:208
+#: template-parts/home/landing.php:117 template-parts/home/landing.php:264
+msgid "Price"
+msgstr "السعر"
+
+#: inc/search/create_search_table.php:40 inc/search/create_search_table.php:194
+#: template-parts/single/properties-card.php:158
+msgid "EGP"
+msgstr "ج.م."
+
+#: inc/search/create_search_table.php:41 inc/search/create_search_table.php:209
+#: template-parts/home/landing.php:106 template-parts/home/landing.php:232
+#: template-parts/home/landing.php:265
+msgid "Bedrooms"
+msgstr "غرف نوم"
+
+#: inc/search/create_search_table.php:42 inc/search/create_search_table.php:194
+msgid "Price on request"
+msgstr ""
+
+#: inc/search/create_search_table.php:44 inc/search/create_search_table.php:192
+#, fuzzy
+#| msgid "Edit Property"
+msgid "Untitled Property"
+msgstr "تحرير العقار"
+
+#: inc/search/create_search_table.php:82
+msgid "Algolia credentials are not configured correctly on the server."
+msgstr ""
+
+#: inc/search/create_search_table.php:89
+msgid ""
+"Algolia PHP client class not found. Please ensure it is installed and autoloaded."
+msgstr ""
+
+#: inc/search/create_search_table.php:94
+msgid "Algolia client initialization error: "
+msgstr ""
+
+#: inc/search/create_search_table.php:180
+msgid "Algolia search operation error: "
+msgstr ""
+
+#: inc/search/handle_search_form_submission.php:114
+msgid "Untitled"
+msgstr ""
+
+#: inc/search/handle_search_form_submission.php:142
+msgid "&laquo;"
+msgstr ""
+
+#: inc/search/handle_search_form_submission.php:143
+msgid "&raquo;"
+msgstr ""
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:20
+#: inc/taxonomy/city/cob_add_city_image_field.php:91
+#: template-parts/taxonomy-city/head.php:26
+msgid "City Image"
+msgstr "صورة المدينة"
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:24
+#: inc/taxonomy/city/cob_add_city_image_field.php:99
+msgid "Upload Image"
+msgstr "ارفع صورة"
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:25
+#: inc/taxonomy/city/cob_add_city_image_field.php:100
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:32
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:61
+msgid "Remove Image"
+msgstr "حذف الصورة"
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:26
+#: inc/taxonomy/city/cob_add_city_image_field.php:102
+msgid "Enter the URL of the city image or use the \"Upload Image\" button."
+msgstr "أدخل عنوان URL لصورة المدينة أو استخدم زر \"تحميل الصورة\"."
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:40
+#: inc/taxonomy/city/cob_add_city_image_field.php:114
+msgid "Select or Upload Image"
+msgstr "حدد أو قم بتحميل الصورة"
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:42
+#: inc/taxonomy/city/cob_add_city_image_field.php:116
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:102
+msgid "Use this image"
+msgstr "استخدم هذه الصورة"
+
+#: inc/taxonomy/city/cob_add_city_image_field.php:149
+msgid "Image"
+msgstr "صورة"
+
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:26
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:51
+msgid "Compound Cover Image"
+msgstr "صورة الكمبوند"
+
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:31
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:60
+msgid "Upload/Select Image"
+msgstr "ارفع صورة / اختر صورة"
+
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:33
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:62
+msgid "Select the main cover image for this compound."
+msgstr "قم باختيار صورة الغلاف الرئيسية لهذا المركب."
+
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:100
+msgid "Choose Compound Cover Image"
+msgstr "اختر صورة للكمبوند"
+
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:167
+#: inc/taxonomy/compound/cob_add_compound_image_field.php:172
+msgid "Cover Image"
+msgstr "صورة الغلاف"
+
+#: inc/taxonomy/compound/cob_add_compounds_columns.php:82
+msgid "Error loading developer"
+msgstr "حدث خطأ أثناء تحميل المطور"
+
+#: inc/taxonomy/compound/cob_add_compounds_columns.php:101
+msgid "Error loading city"
+msgstr "حدث خطأ أثناء تحميل المدينة"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:31
+msgid "Merge Duplicate Compounds"
+msgstr "دمج الكمبوندات المكررة"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:32
+msgid "Merge Compounds"
+msgstr "دمج الكمبوندات"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:48
+msgid ""
+"This tool will make permanent changes to your database by reassigning posts and "
+"deleting taxonomy terms. It is crucial to have a complete backup of your website "
+"(files and database) before proceeding. Test on a staging environment first if "
+"possible."
+msgstr ""
+"ستُجري هذه الأداة تغييرات دائمة على قاعدة بياناتك بإعادة تعيين المنشورات وحذف "
+"مصطلحات التصنيف. من الضروري الاحتفاظ بنسخة احتياطية كاملة لموقعك الإلكتروني "
+"(الملفات وقاعدة البيانات) قبل المتابعة. اختبرها على بيئة تجريبية أولًا إن أمكن."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:51
+#, php-format
+msgid ""
+"This tool will scan the \"%s\" taxonomy for terms that have the exact same name "
+"and attempt to merge them."
+msgstr ""
+"ستقوم هذه الأداة بمسح تصنيف \"%s\" بحثًا عن المصطلحات التي تحمل الاسم نفسه تمامًا "
+"ومحاولة دمجها."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:52
+#, php-format
+msgid ""
+"For each group of duplicate-named terms, one term will be chosen as the \"primary"
+"\" term (usually the oldest or one with a cover image). Posts will be reassigned "
+"to this primary term, and the cover image (meta key: %s) will be transferred if "
+"the primary term doesn_t have one. Other duplicate terms will then be deleted."
+msgstr ""
+"لكل مجموعة من المصطلحات ذات الأسماء المكررة، سيتم اختيار مصطلح واحد ليكون "
+"المصطلح \"الأساسي\" (عادةً الأقدم أو الذي يحمل صورة غلاف). ستُعاد تخصيص المنشورات "
+"لهذا المصطلح الأساسي، وسيتم نقل صورة الغلاف (مفتاح التعريف: %s) إذا لم يكن "
+"للمصطلح الأساسي صورة غلاف. بعد ذلك، سيتم حذف المصطلحات المكررة الأخرى."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:59
+msgid "I have backed up my database and understand the risks."
+msgstr "لقد قمت بعمل نسخة احتياطية لقاعدة البيانات الخاصة بي وأدرك المخاطر."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:62
+msgid "Find and Merge Duplicate Compounds"
+msgstr "البحث عن الكمبوندات المكررة ودمجها"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:120
+msgid "No terms found or an error occurred while fetching terms."
+msgstr "لم يتم العثور على أي مصطلحات أو حدث خطأ أثناء جلب المصطلحات."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:134
+#, php-format
+msgid "Found %d terms with the name: \"%s\""
+msgstr "تم العثور على %d مصطلحًا باسم: \"%s\""
+
+#: inc/taxonomy/compound/duplicate_compounds.php:151
+#, php-format
+msgid "Selected term ID %d as primary because it has a cover image."
+msgstr "تم تحديد المصطلح ID %d باعتباره أساسيًا لأنه يحتوي على صورة غلاف."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:157
+#, php-format
+msgid "Designated Term ID %d (Slug: %s) as the primary term to keep."
+msgstr ""
+"تم تعيين معرف المصطلح %d (Slug: %s) باعتباره المصطلح الأساسي الذي يجب الاحتفاظ "
+"به."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:166
+#, php-format
+msgid "Processing duplicate Term ID %d (Slug: %s)..."
+msgstr "جاري معالجة معرف المصطلح المكرر %d (Slug: %s)..."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:189
+#, php-format
+msgid "Failed to add primary term %d to Post ID %d. Error: %s"
+msgstr "تعذّرت إضافة المصطلح الأساسي %d إلى مُعرّف المنشور %d. الخطأ: %s"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:197
+#, php-format
+msgid "Failed to set primary term %d for Post ID %d after reassigning. Error: %s"
+msgstr "فشل تعيين المصطلح الأساسي %d لمعرّف المنشور %d بعد إعادة التعيين. الخطأ: %s"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:199
+#, php-format
+msgid "Reassigned Post ID %d from term %d to primary term %d."
+msgstr "تم إعادة تعيين معرف المنشور %d من المصطلح %d إلى المصطلح الأساسي %d."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:205
+msgid "No posts found associated with this duplicate term."
+msgstr "لم يتم العثور على أي مشاركات مرتبطة بهذا المصطلح المكرر."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:214
+#, php-format
+msgid ""
+"Transferred cover image (Attachment ID: %s) from duplicate term %d to primary "
+"term %d."
+msgstr ""
+"تم نقل صورة الغلاف (معرف المرفق: %s) من المصطلح المكرر %d إلى المصطلح الأساسي %d."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:230
+#, php-format
+msgid "Failed to delete term ID %d (term might not exist or is default)."
+msgstr "فشل حذف معرف المصطلح %d (قد لا يكون المصطلح موجودًا أو أنه افتراضي)."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:242
+msgid "No duplicate terms (by name) found in this taxonomy."
+msgstr "لم يتم العثور على مصطلحات مكررة (حسب الاسم) في هذا التصنيف."
+
+#: inc/taxonomy/compound/duplicate_compounds.php:244
+#, php-format
+msgid ""
+"Merge process completed. Total duplicate terms (excluding primaries) processed "
+"for deletion: %d"
+msgstr ""
+"اكتملت عملية الدمج. إجمالي المصطلحات المكررة (باستثناء المصطلحات الأساسية) التي "
+"تمت معالجتها للحذف: %d"
+
+#: inc/taxonomy/compound/duplicate_compounds.php:246
+msgid ""
+"Please flush your permalinks by going to Settings > Permalinks and clicking "
+"\"Save Changes\"."
+msgstr ""
+"يرجى مسح الروابط الدائمة الخاصة بك عن طريق الذهاب إلى الإعدادات > الروابط "
+"الدائمة والنقر فوق \"حفظ التغييرات\"."
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:26
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:52
+msgid "Developer Logo"
+msgstr "شعار المطور"
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:29
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:60
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:132
+msgid "No logo selected"
+msgstr "لم يتم تحديد شعار"
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:32
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:63
+msgid "Upload/Select Logo"
+msgstr "تحميل/تحديد الشعار"
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:33
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:64
+msgid "Remove Logo"
+msgstr "إزالة الشعار"
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:34
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:65
+msgid "Select the logo for this developer."
+msgstr "اختر شعار هذا المطور."
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:102
+msgid "Choose Developer Logo"
+msgstr "اختر شعار المطور"
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:104
+msgid "Use this logo"
+msgstr "استخدم هذا الشعار"
+
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:176
+#: inc/taxonomy/developer/cob_add_developer_image_field.php:182
+msgid "Logo"
+msgstr "الشعار"
+
+#: inc/theme-setup/Widget/cob_widgets_init.php:18
+msgid "Main Sidebar"
+msgstr "الشريط الجانبي الرئيسي"
+
+#: inc/theme-setup/Widget/cob_widgets_init.php:20
+msgid "Widgets added here will appear in the sidebar."
+msgstr "ستظهر الأدوات المُضافة هنا في الشريط الجانبي."
+
+#: inc/theme-setup/cob_register_company_settings.php:11
+msgid "Company & Zoom Contact Settings"
+msgstr "إعدادات جهة اتصال الشركة وZoom"
+
+#: inc/theme-setup/cob_register_company_settings.php:18
+msgid "Company Phone"
+msgstr "هاتف الشركة"
+
+#: inc/theme-setup/cob_register_company_settings.php:25
+msgid "Company WhatsApp"
+msgstr "واتساب الشركة"
+
+#: inc/theme-setup/cob_register_company_settings.php:40
+msgid "Zoom ID"
+msgstr "Zoom ID"
+
+#: inc/theme-setup/cob_register_company_settings.php:47
+msgid "Zoom Key"
+msgstr "Zoom Key"
+
+#: inc/theme-setup/cob_register_company_settings.php:57
+msgid "Please enter your company and Zoom contact details below:"
+msgstr "الرجاء إدخال تفاصيل شركتك وبيانات الاتصال الخاصة بـ Zoom أدناه:"
+
+#: inc/theme-setup/cob_register_company_settings.php:88
+#: inc/theme-setup/cob_register_company_settings.php:89
+#: inc/theme-setup/cob_register_company_settings.php:100
+msgid "Company Options"
+msgstr "اعدادت الشركة"
+
+#: inc/theme-setup/menus.php:21 template-parts/top-articles.php:47
+msgid "Top Articles"
+msgstr "افضل المقالات"
+
+#: inc/theme-setup/menus.php:22
+msgid "Footer Menu"
+msgstr "قائمة التذييل"
+
+#: inc/theme-setup/menus.php:23
+msgid "Footer Cities Menu"
+msgstr "قائمة المدن في الفوتر"
+
+#: inc/theme-setup/menus.php:24
+msgid "Footer Projects Menu"
+msgstr "قائمة مشاريع في الفووتر"
+
+#: inc/theme-setup/menus.php:25
+msgid "Footer Developers Menu"
+msgstr "قائمة المطورين في الفوتر"
+
+#: inc/transients/delete_transients.php:40
+msgid "Transients and caches deleted successfully."
+msgstr "تم حذف العناصر المؤقتة والذاكرة المؤقتة بنجاح."
+
+#: inc/transients/delete_transients.php:63
+msgid "Delete Transients"
+msgstr "حذف الكاش"
+
+#: index.php:12
+msgid "Welcome to Capital of Business"
+msgstr "مرحبا بكم في COB"
+
+#: index.php:13
+msgid "This is the main template file."
+msgstr "هذا هو ملف القالب الرئيسي."
+
+#: page-templates/contact-us.php:67
+msgid "Company Name"
+msgstr "الشركة المطورة"
+
+#: page-templates/contact-us.php:74
+msgid ""
+"It is simply dummy text (i.e., the focus is on design rather than content) and "
+"is used in layout design."
+msgstr ""
+"إنه ببساطة نص وهمي (أي التركيز على التصميم بدلاً من المحتوى) ويستخدم في تصميم "
+"التخطيط."
+
+#: page-templates/contact-us.php:76
+msgid "Egypt, Cairo"
+msgstr "مصر، القاهرة"
+
+#: page-templates/contact-us.php:89
+msgid "Contact Email"
+msgstr "البريد الإلكتروني للاتصال"
+
+#: page-templates/contact-us.php:100
+msgid "Contact Number"
+msgstr "رقم الاتصال"
+
+#: page-templates/contact-us.php:101
+msgid "1222222123"
+msgstr "1222222123"
+
+#: search.php:30
+msgid "No results found."
+msgstr "لم يتم العثور على نتائج."
+
+#: template-parts/areas/head-areas.php:24 template-parts/factors/head-areas.php:24
+msgid "landing areas"
+msgstr "مناطق الهبوط"
+
+#: template-parts/areas/pagination-section.php:101
+msgid "No cities found."
+msgstr "لم يتم العثور على مدن."
+
+#: template-parts/areas/pagination-section.php:109
+msgid "Content for 6 October"
+msgstr "المحتوى ليوم 6 أكتوبر"
+
+#: template-parts/areas/pagination-section.php:114
+msgid "Content for Sheikh Zayed"
+msgstr "محتوى للشيخ زايد"
+
+#: template-parts/areas/pagination-section.php:119
+msgid "Content for Mokattam"
+msgstr "محتوى المقطم"
+
+#: template-parts/areas/pagination-section.php:124
+msgid "Content for Nasr City"
+msgstr "محتوى مدينة نصر"
+
+#: template-parts/areas/pagination-section.php:129
+msgid "Content for New Heliopolis"
+msgstr "محتوى هليوبوليس الجديدة"
+
+#: template-parts/areas/pagination-section.php:134
+msgid "Content for North Coast"
+msgstr "المحتوى للساحل الشمالي"
+
+#: template-parts/button-container.php:14
+msgid "Call Us"
+msgstr "اتصل بنا"
+
+#: template-parts/button-container.php:29
+msgid "WhatsApp"
+msgstr "واتساب"
+
+#: template-parts/button-container.php:45
+msgid "Zoom"
+msgstr "زووم"
+
+#: template-parts/button-container.php:65
+#: template-parts/factories-post/left-landing-flat.php:3
+#: template-parts/fixed-icons.php:116
+#: template-parts/lands-post/left-landing-flat.php:10
+#: template-parts/properties-post/left-landing-flat.php:10
+msgid "Schedule Appointment"
+msgstr "تحديد موعد"
+
+#: template-parts/button-container.php:68
+#: template-parts/factories-post/left-landing-flat.php:4
+#: template-parts/fixed-icons.php:119
+#: template-parts/lands-post/left-landing-flat.php:11
+#: template-parts/properties-post/left-landing-flat.php:11
+msgid "Live Meeting"
+msgstr "لقاء مباشر"
+
+#: template-parts/button-container.php:81
+#: template-parts/factories-post/left-landing-flat.php:10
+#: template-parts/fixed-icons.php:130
+#: template-parts/lands-post/left-landing-flat.php:20
+#: template-parts/properties-post/left-landing-flat.php:20
+msgid "Select Date"
+msgstr "حدد التاريخ"
+
+#: template-parts/button-container.php:87
+#: template-parts/factories-post/left-landing-flat.php:16
+#: template-parts/fixed-icons.php:136
+msgid "Sunday"
+msgstr "الأحد"
+
+#: template-parts/button-container.php:89 template-parts/button-container.php:96
+#: template-parts/button-container.php:103 template-parts/button-container.php:110
+#: template-parts/button-container.php:117 template-parts/button-container.php:124
+#: template-parts/button-container.php:131
+#: template-parts/factories-post/left-landing-flat.php:18
+#: template-parts/factories-post/left-landing-flat.php:25
+#: template-parts/factories-post/left-landing-flat.php:32
+#: template-parts/factories-post/left-landing-flat.php:39
+#: template-parts/factories-post/left-landing-flat.php:46
+#: template-parts/factories-post/left-landing-flat.php:53
+#: template-parts/factories-post/left-landing-flat.php:60
+#: template-parts/fixed-icons.php:138 template-parts/fixed-icons.php:145
+#: template-parts/fixed-icons.php:152 template-parts/fixed-icons.php:159
+#: template-parts/fixed-icons.php:166 template-parts/fixed-icons.php:173
+#: template-parts/fixed-icons.php:180
+msgid "October"
+msgstr "أكتوبر"
+
+#: template-parts/button-container.php:94
+#: template-parts/factories-post/left-landing-flat.php:23
+#: template-parts/fixed-icons.php:143
+msgid "Monday"
+msgstr "الاثنين"
+
+#: template-parts/button-container.php:101
+#: template-parts/factories-post/left-landing-flat.php:30
+#: template-parts/fixed-icons.php:150
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: template-parts/button-container.php:108
+#: template-parts/factories-post/left-landing-flat.php:37
+#: template-parts/fixed-icons.php:157
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: template-parts/button-container.php:115
+#: template-parts/factories-post/left-landing-flat.php:44
+#: template-parts/fixed-icons.php:164
+msgid "Thursday"
+msgstr "الخميس"
+
+#: template-parts/button-container.php:122
+#: template-parts/factories-post/left-landing-flat.php:51
+#: template-parts/fixed-icons.php:171
+msgid "Friday"
+msgstr "الجمعة"
+
+#: template-parts/button-container.php:129
+#: template-parts/factories-post/left-landing-flat.php:58
+#: template-parts/fixed-icons.php:178
+msgid "Saturday"
+msgstr "السبت"
+
+#: template-parts/button-container.php:140
+#: template-parts/factories-post/left-landing-flat.php:67
+#: template-parts/fixed-icons.php:188
+#: template-parts/lands-post/left-landing-flat.php:39
+#: template-parts/properties-post/left-landing-flat.php:39
+msgid "Select Time"
+msgstr "حدد الوقت"
+
+#: template-parts/button-container.php:143 template-parts/fixed-icons.php:191
+msgid "10:00 AM"
+msgstr "10:00 صباحًا"
+
+#: template-parts/button-container.php:144 template-parts/fixed-icons.php:192
+msgid "12:00 PM"
+msgstr "12:00 مساءً"
+
+#: template-parts/button-container.php:145 template-parts/fixed-icons.php:193
+msgid "02:00 PM"
+msgstr "02:00 مساءً"
+
+#: template-parts/button-container.php:150
+#: template-parts/factories-post/left-landing-flat.php:74
+#: template-parts/fixed-icons.php:197
+#: template-parts/lands-post/left-landing-flat.php:50
+#: template-parts/properties-post/left-landing-flat.php:50
+msgid "Confirm Booking"
+msgstr "تأكيد الحجز"
+
+#: template-parts/button-container.php:153 template-parts/button-container.php:173
+#: template-parts/factories-post/left-landing-flat.php:75
+#: template-parts/factories-post/left-landing-flat.php:83
+#: template-parts/fixed-icons.php:200 template-parts/fixed-icons.php:216
+msgid "Book your meeting now"
+msgstr "احجز اجتماعك الآن"
+
+#: template-parts/button-container.php:165
+#: template-parts/factories-post/left-landing-flat.php:80
+#: template-parts/fixed-icons.php:209
+#: template-parts/lands-post/left-landing-flat.php:59
+#: template-parts/properties-post/left-landing-flat.php:59
+msgid "Enter Phone Number"
+msgstr "أدخل رقم الهاتف"
+
+#: template-parts/button-container.php:170
+#: template-parts/factories-post/left-landing-flat.php:82
+#: template-parts/fixed-icons.php:213
+#: template-parts/lands-post/left-landing-flat.php:62
+#: template-parts/properties-post/left-landing-flat.php:62
+msgid "Create Meeting"
+msgstr "إنشاء اجتماع"
+
+#: template-parts/button-container.php:190
+msgid "Your Assistant"
+msgstr "رسالتك"
+
+#: template-parts/button-container.php:206 template-parts/contact-section.php:10
+#: template-parts/fixed-icons.php:49
+msgid "Need Help?"
+msgstr "هل تحتاج إلى مساعدة؟"
+
+#: template-parts/button-container.php:209 template-parts/fixed-icons.php:52
+msgid ""
+"Fill in your details and a real estate expert will contact you as soon as "
+"possible."
+msgstr "املأ بياناتك و سوف يقوم خبير عقارى بالاتصال بك فى اقرب وقت"
+
+#: template-parts/button-container.php:238 template-parts/contact-section.php:16
+#: template-parts/fixed-icons.php:81
+msgid "Your Message"
+msgstr "رسالتك"
+
+#: template-parts/contact-section.php:11
+msgid "Fill in your information and a real estate expert will contact you shortly."
+msgstr "املأ بياناتك و سوف يقوم خبير عقارى بالاتصال بك فى اقرب وقت"
+
+#: template-parts/contact-section.php:13
+msgid "Your Name"
+msgstr "أسمك"
+
+#: template-parts/contact-section.php:24
+msgid "Office Image"
+msgstr "شركة COB"
+
+#: template-parts/contact-section.php:31
+msgid "Company Logo"
+msgstr "شعار COB"
+
+#: template-parts/content-page.php:26
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: template-parts/content-page.php:33
+msgid "Edit"
+msgstr "تحرير"
+
+#: template-parts/developers/landing.php:49 template-parts/home/developers.php:108
+msgid "There are currently no Developers."
+msgstr "لا يوجد حاليا أي المطورين."
+
+#: template-parts/factories-post/factories-related.php:34
+#: template-parts/lands-post/factories-related.php:34
+msgid "Featured Factories"
+msgstr "مصانع مميزة"
+
+#: template-parts/factories-post/factories-related.php:35
+#: template-parts/home/properties.php:46
+#: template-parts/lands-post/factories-related.php:35
+msgid "Explore the latest real estate projects available"
+msgstr "موقع عقار الجديد ينشر أحدث المشاريع العقارية"
+
+#: template-parts/factories-post/factories-related.php:52
+#: template-parts/home/factories.php:139
+msgid "There are no factories currently available."
+msgstr "لا يوجد مصانع متاحة حاليا."
+
+#: template-parts/factories-post/flat-details.php:8
+#: template-parts/home/properties.php:61
+#: template-parts/lands-post/flat-details.php:5
+#: template-parts/properties-post/flat-details.php:7
+msgid "Not known"
+msgstr "غير معروف"
+
+#: template-parts/factories-post/flat-details.php:102
+#: template-parts/lands-post/flat-details.php:105
+msgid " Factory price "
+msgstr " سعر المصنع "
+
+#: template-parts/factories-post/flat-details.php:103
+#: template-parts/lands-post/flat-details.php:106
+#: template-parts/properties-post/flat-details.php:119
+#: template-parts/properties-post/flat-details.php:134
+msgid "L.E."
+msgstr "جنية ."
+
+#: template-parts/factories-post/flat-details.php:134
+msgid "Meter"
+msgstr " متر "
+
+#: template-parts/factories-post/flat-details.php:158
+msgid "Bathrooms"
+msgstr "الحمامات"
+
+#: template-parts/factories-post/flat-details.php:168
+msgid "Reference number"
+msgstr "الرقم المرجعي "
+
+#: template-parts/factories-post/flat-details.php:176
+msgid "Delivery in"
+msgstr "موعد التسليم "
+
+#: template-parts/factories-post/right-landing-flat.php:3
+msgid " About the factory"
+msgstr " عن المصنع"
+
+#: template-parts/header.php:41
+msgid "Search..."
+msgstr "بحث ..."
+
+#: template-parts/header.php:42 template-parts/home/landing.php:126
+msgid "Search"
+msgstr "بحث"
+
+#: template-parts/hiring/hiring-landing.php:4
+msgid "Join the fastest-growing real estate companies"
+msgstr "انضم إلى أسرع الشركات العقارية نمواً"
+
+#: template-parts/hiring/hiring-landing.php:7
+msgid ""
+"We are looking for passionate individuals to join us in our mission. We value "
+"flat hierarchies, clear communication, ownership, and complete accountability."
+msgstr ""
+"نحن نبحث عن أفراد متحمسين للانضمام إلينا في مهمتنا. نحن نقدر التسلسل الهرمي "
+"المسطح والتواصل الواضح والملكية والمساءلة الكاملة."
+
+#: template-parts/hiring/jobs-posts.php:20 template-parts/hiring/jobs-posts.php:77
+msgid "Since publication"
+msgstr "منذ النشر"
+
+#: template-parts/hiring/jobs-posts.php:26
+msgid "View details"
+msgstr "عرض التفاصيل"
+
+#: template-parts/hiring/jobs-posts.php:39
+msgid "There are no qualifications added"
+msgstr "لا توجد مؤهلات مضافة"
+
+#: template-parts/hiring/jobs-posts.php:52
+msgid "There are no tags"
+msgstr "لا توجد علامات"
+
+#: template-parts/hiring/jobs-posts.php:57
+msgid "Apply Now"
+msgstr "تقدم بطلبك الآن"
+
+#: template-parts/hiring/jobs-posts.php:83
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+#: template-parts/hiring/jobs-posts.php:87
+msgid "phone number"
+msgstr "رقم التليفون"
+
+#: template-parts/hiring/jobs-posts.php:93
+msgid "Number of years of experience"
+msgstr "عدد سنوات الخبرة"
+
+#: template-parts/hiring/jobs-posts.php:97
+msgid "E-mail"
+msgstr "بريد إلكتروني"
+
+#: template-parts/hiring/jobs-posts.php:103
+msgid "The address"
+msgstr "العنوان"
+
+#: template-parts/hiring/jobs-posts.php:108
+msgid "Attach the CV"
+msgstr "إرفاق السيرة الذاتية"
+
+#: template-parts/hiring/jobs-posts.php:121
+msgid "Choose the file"
+msgstr "اختر الملف"
+
+#: template-parts/hiring/jobs-posts.php:121
+msgid "Or drag files here"
+msgstr "أو اسحب الملفات هنا"
+
+#: template-parts/hiring/jobs-posts.php:125
+msgid "File type: PDF or PNG"
+msgstr "نوع الملف: PDF أو PNG"
+
+#: template-parts/hiring/jobs-posts.php:130
+msgid "More details"
+msgstr "المزيد من التفاصيل"
+
+#: template-parts/hiring/jobs-posts.php:131
+msgid "Enter any other details."
+msgstr "أدخل أي تفاصيل أخرى."
+
+#: template-parts/hiring/jobs-posts.php:159
+msgid "There are no jobs."
+msgstr "لا توجد وظائف."
+
+#: template-parts/home/areas.php:33
+msgid "Search by area"
+msgstr "البحث حسب المنطقة "
+
+#: template-parts/home/areas.php:60 template-parts/home/articles.php:13
+#: template-parts/home/developers.php:46 template-parts/home/factories.php:42
+#: template-parts/home/projects.php:79 template-parts/home/services.php:50
+#: template-parts/single/articles-news.php:19
+msgid "View all"
+msgstr "عرض الكل"
+
+#: template-parts/home/areas.php:138
+#, fuzzy
+#| msgid "No projects available at the moment."
+msgid "No areas available at the moment."
+msgstr "لا توجد عقارات  متاحة في الوقت الراهن."
+
+#: template-parts/home/articles.php:9
+msgid "Articles."
+msgstr "مقالات."
+
+#: template-parts/home/articles.php:10
+msgid "Explore a selection of the latest real estate projects available with us."
+msgstr "استكشف مجموعة مختارة من أحدث المشاريع العقارية المتاحة لدينا."
+
+#: template-parts/home/articles.php:64
+msgid "There are no new articles currently."
+msgstr "لا توجد مقالات جديدة حاليا."
+
+#: template-parts/home/compounds.php:74
+#: template-parts/taxonomy-city/featured.php:61
+msgid "Most Searched Compounds"
+msgstr "الكمبوندات الأكثر بحثا"
+
+#: template-parts/home/compounds.php:118
+#, fuzzy
+#| msgid "No cities found."
+msgid "No compounds with images found."
+msgstr "لم يتم العثور على مدن."
+
+#: template-parts/home/factories.php:37
+msgid "Latest Factories"
+msgstr "أحدث المصانع"
+
+#: template-parts/home/factories.php:38
+msgid ""
+"Discover the latest factories and advanced technologies that meet the needs of "
+"the modern industrial market"
+msgstr ""
+"اكتشف أحدث المصانع والتقنيات المتقدمة التي تلبي احتياجات السوق الصناعية الحديثة"
+
+#: template-parts/home/landing.php:41
+msgid "Default Slide"
+msgstr "الشريحة الافتراضية"
+
+#: template-parts/home/landing.php:61
+msgid "Find your property"
+msgstr "ابحث عن وحدتك"
+
+#: template-parts/home/landing.php:80 template-parts/home/landing.php:202
+msgid "Search by compound, location, real estate"
+msgstr "البحث عن طريق الكلمات الرئيسية والموقع او العقار"
+
+#: template-parts/home/landing.php:94 template-parts/home/landing.php:218
+msgid "Select Property Type"
+msgstr "اختر نوع العقار"
+
+#: template-parts/home/landing.php:135
+msgid "Detailed search"
+msgstr "بحث مفصل"
+
+#: template-parts/home/landing.php:149
+msgid "Search by keywords, location, real estate photos"
+msgstr "البحث عن طريق الكلمات الرئيسية والموقع والصور العقارية"
+
+#: template-parts/home/landing.php:269
+msgid "No results found"
+msgstr "لم يتم العثور على نتائج."
+
+#: template-parts/home/projects.php:72
+msgid "Explore a selection of our latest available real estate projects"
+msgstr "استكشف مجموعة مختارة من أحدث مشاريعنا العقارية المتاحة"
+
+#: template-parts/home/projects.php:147
+msgid "No projects available at the moment."
+msgstr "لا توجد عقارات  متاحة في الوقت الراهن."
+
+#: template-parts/home/properties.php:45
+msgid "Featured Properties"
+msgstr "عقارات مميزة"
+
+#: template-parts/home/properties.php:49
+#: template-parts/properties-post/flat-slider.php:91
+msgid "View All"
+msgstr "عرض الكل"
+
+#: template-parts/home/properties.php:76
+msgid "No properties available at the moment."
+msgstr "لا توجد عقارات  متاحة في الوقت الراهن."
+
+#: template-parts/home/services.php:23
+msgid "Legal services"
+msgstr "الخدمات القانونية"
+
+#: template-parts/home/services.php:24
+msgid "We provide a variety of legal services to meet our clients' needs"
+msgstr "نحن نقدم مجموعة متنوعة من الخدمات القانونية لتلبية احتياجات عملائنا"
+
+#: template-parts/home/services.php:46
+msgid "There are currently no services in this language."
+msgstr "لا توجد خدمات بهذه اللغة حاليًا."
+
+#: template-parts/lands-post/factories-related.php:52
+msgid "There are no lands currently available."
+msgstr "لا توجد أراضي متاحة حاليًا."
+
+#: template-parts/lands-post/flat-details.php:132
+#: template-parts/properties-post/flat-details.php:155
+msgid " Meter "
+msgstr " متر "
+
+#: template-parts/lands-post/flat-details.php:150
+#: template-parts/properties-post/flat-details.php:186
+msgid " Bathrooms "
+msgstr " الحمامات "
+
+#: template-parts/lands-post/flat-details.php:156
+#: template-parts/properties-post/flat-details.php:202
+msgid "Reference number "
+msgstr "الرقم المرجعي "
+
+#: template-parts/lands-post/flat-details.php:165
+#: template-parts/properties-post/flat-details.php:212
+msgid "Delivery in "
+msgstr "موعد التسليم "
+
+#: template-parts/lands-post/left-landing-flat.php:47
+#: template-parts/properties-post/left-landing-flat.php:47
+msgid "Participant Email"
+msgstr "البريد الإلكتروني للاتصال"
+
+#: template-parts/lands-post/left-landing-flat.php:119
+#: template-parts/properties-post/left-landing-flat.php:119
+msgid "Please wait..."
+msgstr "انتظر من فضلك..."
+
+#: template-parts/lands-post/left-landing-flat.php:153
+#: template-parts/lands-post/left-landing-flat.php:203
+#: template-parts/properties-post/left-landing-flat.php:153
+#: template-parts/properties-post/left-landing-flat.php:203
+msgid "Your Meeting Link"
+msgstr "رابط اجتماعك"
+
+#: template-parts/lands-post/left-landing-flat.php:156
+#: template-parts/lands-post/left-landing-flat.php:181
+#: template-parts/lands-post/left-landing-flat.php:186
+#: template-parts/lands-post/left-landing-flat.php:192
+#: template-parts/lands-post/left-landing-flat.php:206
+#: template-parts/properties-post/left-landing-flat.php:156
+#: template-parts/properties-post/left-landing-flat.php:181
+#: template-parts/properties-post/left-landing-flat.php:186
+#: template-parts/properties-post/left-landing-flat.php:192
+#: template-parts/properties-post/left-landing-flat.php:206
+msgid "Copy"
+msgstr "نسخ"
+
+#: template-parts/lands-post/left-landing-flat.php:158
+#: template-parts/properties-post/left-landing-flat.php:158
+msgid "Add to Google Calendar"
+msgstr "أضف إلى تقويم جوجل"
+
+#: template-parts/lands-post/left-landing-flat.php:180
+#: template-parts/lands-post/left-landing-flat.php:185
+#: template-parts/lands-post/left-landing-flat.php:191
+#: template-parts/properties-post/left-landing-flat.php:180
+#: template-parts/properties-post/left-landing-flat.php:185
+#: template-parts/properties-post/left-landing-flat.php:191
+msgid "Copied!"
+msgstr "منسوخ!"
+
+#: template-parts/lands-post/left-landing-flat.php:198
+#: template-parts/properties-post/left-landing-flat.php:198
+msgid "Could not shorten URL. Showing original."
+msgstr "تعذّر اختصار الرابط. يُعرض الأصل."
+
+#: template-parts/lands-post/left-landing-flat.php:213
+#: template-parts/properties-post/left-landing-flat.php:213
+msgid "An error occurred."
+msgstr "حدث خطأ."
+
+#: template-parts/lands-post/left-landing-flat.php:220
+#: template-parts/properties-post/left-landing-flat.php:220
+msgid "Please try again."
+msgstr "يرجى المحاولة مرة أخرى."
+
+#: template-parts/lands-post/right-landing-flat.php:3
+msgid " About the land"
+msgstr "عن الأرض"
+
+#: template-parts/properties-post/flat-details.php:113
+msgid " Prices start "
+msgstr " السعر يبدء "
+
+#: template-parts/properties-post/flat-details.php:118
+msgid " From "
+msgstr "من"
+
+#: template-parts/properties-post/flat-details.php:133
+msgid " To "
+msgstr "الي"
+
+#: template-parts/properties-post/flat-details.php:170
+msgid " Rooms "
+msgstr " غرف "
+
+#: template-parts/properties-post/flat-slider.php:45
+#, php-format
+msgid "Image of %s - 1"
+msgstr "صورة %s - 1"
+
+#: template-parts/properties-post/flat-slider.php:46
+#, php-format
+msgid "Image of %s - 2"
+msgstr "صورة %s - 2"
+
+#: template-parts/properties-post/flat-slider.php:47
+#, php-format
+msgid "Image of %s - 3"
+msgstr "صورة %s - 3"
+
+#: template-parts/properties-post/flat-slider.php:48
+#, php-format
+msgid "Image of %s - 4"
+msgstr "صورة %s - 4"
+
+#: template-parts/properties-post/flat-slider.php:49
+#, php-format
+msgid "Image of %s - 5"
+msgstr "صورة %s - 5"
+
+#: template-parts/properties-post/flat-slider.php:50
+#, php-format
+msgid "Image of %s - 6"
+msgstr "صورة %s - 6"
+
+#: template-parts/properties-post/flat-slider.php:51
+#, php-format
+msgid "Image of %s - 7"
+msgstr "صورة %s - 7"
+
+#: template-parts/properties-post/flat-slider.php:83
+#: template-parts/properties-post/flat-slider.php:132
+#, php-format
+msgid "Thumbnail for %s"
+msgstr "صورة مصغرة لـ %s"
+
+#: template-parts/properties-post/map.php:22
+#, fuzzy
+#| msgid "Compound Cover Image"
+msgid "Compound Borders Map"
+msgstr "خريطة الكمبوند"
+
+#: template-parts/properties-post/project-facilities.php:12
+msgid "Water Games"
+msgstr "العاب مائية"
+
+#: template-parts/properties-post/project-facilities.php:13
+msgid "Security"
+msgstr "أمن وحراسه"
+
+#: template-parts/properties-post/project-facilities.php:14
+msgid "Sports Clubs"
+msgstr "أندية اجتماعية"
+
+#: template-parts/properties-post/project-facilities.php:15
+msgid "Electronic Gates"
+msgstr "البوابات الإلكترونية"
+
+#: template-parts/properties-post/project-facilities.php:16
+msgid "Car Garages"
+msgstr "جراج"
+
+#: template-parts/properties-post/project-facilities.php:17
+msgid "Maintenance and Cleaning"
+msgstr "خدمات الصيانة والنظافة"
+
+#: template-parts/properties-post/project-facilities.php:18
+msgid "Internet Networks"
+msgstr "انترنت"
+
+#: template-parts/properties-post/project-facilities.php:19
+msgid "Cafes and Restaurants"
+msgstr "مطاعم وكافيهات"
+
+#: template-parts/properties-post/project-facilities.php:20
+msgid "Kids Area"
+msgstr "منطقة اطفال"
+
+#: template-parts/properties-post/project-facilities.php:21
+msgid "Shopping Center"
+msgstr "مركز تجاري"
+
+#: template-parts/properties-post/project-facilities.php:22
+msgid "Green Spaces"
+msgstr "مساحات خضراء"
+
+#: template-parts/properties-post/project-facilities.php:23
+msgid "Cycling Lanes"
+msgstr "مسارات دراجات"
+
+#: template-parts/properties-post/project-facilities.php:24
+msgid "Power Generators"
+msgstr "مولدات الطاقة"
+
+#: template-parts/properties-post/right-landing-flat.php:2
+msgid "Facilities and services"
+msgstr "المرافق والخدمات"
+
+#: template-parts/properties-post/right-landing-flat.php:15
+msgid "Payment systems"
+msgstr "أنظمة السداد"
+
+#: template-parts/properties-post/right-landing-flat.php:21
+msgid "Deposit"
+msgstr "مقدم"
+
+#: template-parts/properties-post/right-landing-flat.php:22
+#: template-parts/single/properties-card.php:163
+msgid "Years"
+msgstr "سنين"
+
+#: template-parts/properties-post/right-landing-flat.php:28
+msgid "About the property"
+msgstr " عن العقار"
+
+#: template-parts/properties-post/similar-units.php:33
+#: template-parts/taxonomy-city/top-trend.php:34
+#: template-parts/taxonomy-compound/top-trend.php:34
+#, php-format
+msgid "The most searched compounds in %s"
+msgstr "الكمبوندات الأكثر بحثًا في %s"
+
+#: template-parts/services/all-services.php:15
+msgid "Services provided"
+msgstr "الخدمات المقدمة"
+
+#: template-parts/services/all-services.php:37
+msgid "There are no services currently available."
+msgstr "لا توجد خدمات متاحة حاليا."
+
+#: template-parts/services/experts.php:4
+msgid "Our Experts"
+msgstr "خبراؤنا"
+
+#: template-parts/services/head-services.php:17
+msgid "services1"
+msgstr "الخدمات1"
+
+#: template-parts/services/head-services.php:19
+#: template-parts/taxonomy-city/head.php:28
+#: template-parts/taxonomy-compound/sup-taxonomy.php:83
+#: template-parts/taxonomy-developer/head.php:20
+#: template-parts/taxonomy-developer/sup-taxonomy.php:58
+#: template-parts/top-articles.php:56
+msgid "Image 2"
+msgstr "الصورة 2"
+
+#: template-parts/single/article-content.php:9
+msgid "Latest Posts"
+msgstr "أحدث المشاركات"
+
+#: template-parts/single/article-content.php:45
+msgid "No posts found."
+msgstr "لم يتم العثور على أي مشاركات."
+
+#: template-parts/single/articles-news.php:15
+msgid "Articles"
+msgstr "المقالات"
+
+#: template-parts/single/articles-news.php:16
+msgid "Explore a selection of the latest real estate projects available with us"
+msgstr "استكشف مجموعة مختارة من أحدث المشاريع العقارية المتاحة لدينا"
+
+#: template-parts/single/articles-news.php:64
+msgid "There are no articles currently available."
+msgstr "لا توجد مقالات متاحة حاليا."
+
+#: template-parts/single/properties-card.php:124
+msgid "Default Image"
+msgstr "الصورة الافتراضية"
+
+#: template-parts/single/properties-card.php:161
+msgid "Down Payment:"
+msgstr "دفعة مبدئية:"
+
+#: template-parts/taxonomy-city/featured.php:95
+msgid "No compounds available at the moment."
+msgstr "لا توجد مركبات متاحة في الوقت الراهن."
+
+#: template-parts/taxonomy-city/sup-taxonomy.php:42
+msgid "Top 5 Open Compounds"
+msgstr "افضل كمبوندات"
+
+#: template-parts/taxonomy-city/sup-taxonomy.php:61
+msgid "No open compounds available."
+msgstr "لا توجد كموبوندات مفتوحة الان"
+
+#: template-parts/taxonomy-city/top-compounds.php:51
+#: template-parts/taxonomy-compound/top-compounds.php:51
+#: template-parts/taxonomy-developer/top-Compounds.php:51
+#, php-format
+msgid "The most important compounds %s"
+msgstr "أهم المشروعات  %s"
+
+#: template-parts/taxonomy-city/top-compounds.php:64
+#: template-parts/taxonomy-compound/top-compounds.php:64
+#: template-parts/taxonomy-developer/top-Compounds.php:64
+msgid "Visits"
+msgstr "الزيارات"
+
+#: template-parts/taxonomy-city/top-compounds.php:73
+#: template-parts/taxonomy-compound/top-compounds.php:73
+#: template-parts/taxonomy-developer/top-Compounds.php:73
+msgid "No projects available"
+msgstr "لا توجد مشاريع متاحة"
+
+#: template-parts/taxonomy-city/top-compounds.php:128
+#: template-parts/taxonomy-compound/top-compounds.php:128
+#: template-parts/taxonomy-developer/top-Compounds.php:128
+msgid "Default Image 1"
+msgstr "الصورة الافتراضية 1"
+
+#: template-parts/taxonomy-city/top-compounds.php:133
+#: template-parts/taxonomy-compound/top-compounds.php:133
+#: template-parts/taxonomy-developer/top-Compounds.php:133
+msgid "Default Image 2"
+msgstr "الصورة الافتراضية 2"
+
+#: template-parts/taxonomy-city/top-trend.php:42
+#: template-parts/taxonomy-compound/top-trend.php:42
+#: template-parts/taxonomy-developer/featured.php:55
+#, php-format
+msgid "%d Results"
+msgstr "%d نتائج"
+
+#: template-parts/taxonomy-compound/featured.php:74
+#: template-parts/taxonomy-developer/top-trend.php:79
+#, php-format
+msgid "Discover %s Units"
+msgstr "اكتشف %s وحدات"
+
+#: template-parts/taxonomy-compound/featured.php:76
+#: template-parts/taxonomy-compound/featured.php:157
+#: template-parts/taxonomy-developer/top-trend.php:81
+msgid "results"
+msgstr "نتائج"
+
+#: template-parts/taxonomy-compound/featured.php:80
+#, fuzzy
+#| msgid "Search Properties"
+msgid "Sort properties by"
+msgstr "البحث عن العقارات"
+
+#: template-parts/taxonomy-compound/featured.php:82
+#: template-parts/taxonomy-developer/top-trend.php:87
+msgid "Sort By"
+msgstr "فرز حسب"
+
+#: template-parts/taxonomy-compound/featured.php:85
+#: template-parts/taxonomy-developer/top-trend.php:90
+msgid "Price: Low to High"
+msgstr "السعر: من الأقل إلى الأعلى"
+
+#: template-parts/taxonomy-compound/featured.php:88
+#: template-parts/taxonomy-developer/top-trend.php:93
+msgid "Price: High to Low"
+msgstr "السعر: من الأعلى إلى الأدنى"
+
+#: template-parts/taxonomy-compound/featured.php:91
+#: template-parts/taxonomy-developer/top-trend.php:96
+msgid "Date: Oldest"
+msgstr "التاريخ: الأقدم"
+
+#: template-parts/taxonomy-compound/featured.php:94
+#: template-parts/taxonomy-developer/top-trend.php:99
+msgid "Date: Newest"
+msgstr "التاريخ: الأحدث"
+
+#: template-parts/taxonomy-compound/featured.php:155
+msgid "Loading..."
+msgstr ""
+
+#: template-parts/taxonomy-compound/featured.php:156
+#, fuzzy
+#| msgid "An error occurred. Please try again later."
+msgid "Error loading properties. Please try again."
+msgstr "حدث خطأ. يرجى المحاولة مرة أخرى لاحقا."
+
+#: template-parts/taxonomy-compound/sup-taxonomy.php:81
+#: template-parts/taxonomy-developer/sup-taxonomy.php:56
+#: template-parts/top-articles.php:54
+msgid "Image 1"
+msgstr "الصورة 1"
+
+#: template-parts/taxonomy-developer/featured.php:51
+msgid "Featured projects"
+msgstr "مشاروعات مميزة"
+
+#: template-parts/taxonomy-developer/featured.php:80
+msgid "No projects available."
+msgstr "لا توجد مشاريع متاحة."
+
+#: template-parts/taxonomy-developer/head.php:29
+msgid "developer Image"
+msgstr "صورة المطور"
+
+#: template-parts/top-articles.php:48
+msgid "No articles selected."
+msgstr "أحدث الأخبار."
+
+#. Theme URI of the plugin/theme
+msgid "https://www.cob.com.eg/"
+msgstr "https://www.cob.com.eg/"
+
+#. Description of the plugin/theme
+msgid ""
+"Capital of Business is a premium, responsive WordPress theme designed "
+"specifically for real estate businesses. Built with Bootstrap and optimized for "
+"PHP 8.2, it offers seamless performance and a sleek user experience. Featuring "
+"advanced search filters, interactive maps, and customizable property listings, "
+"the theme enables real estate agencies, developers, and agents to showcase "
+"properties effectively. Its powerful admin panel allows for effortless "
+"customization, making it the ideal choice for professionals looking to enhance "
+"their online presence with a modern, feature-rich website."
+msgstr ""
+"Capital of Business عبارة عن سمة WordPress متميزة وسريعة الاستجابة مصممة خصيصًا "
+"للشركات العقارية. تم تصميمه باستخدام Bootstrap وتم تحسينه لـ PHP 8.2، وهو يوفر "
+"أداءً سلسًا وتجربة مستخدم أنيقة. يتميز هذا الموضوع بمرشحات بحث متقدمة وخرائط "
+"تفاعلية وقوائم عقارات قابلة للتخصيص، مما يتيح للوكالات العقارية والمطورين "
+"والوكلاء عرض العقارات بفعالية. تتيح لوحة الإدارة القوية إمكانية التخصيص بسهولة، "
+"مما يجعلها الخيار الأمثل للمحترفين الذين يتطلعون إلى تعزيز تواجدهم عبر الإنترنت "
+"من خلال موقع ويب حديث وغني بالميزات."
+
+#. Author of the plugin/theme
+msgid "Waleed Elsefy"
+msgstr "وليد الصيفي"
+
+#. Author URI of the plugin/theme
+msgid "https://dido.pro"
+msgstr "https://dido.pro"
+
+#. Template Name of the plugin/theme
+msgid "Single Project"
+msgstr "الكمبوند"
+
+#. Template Name of the plugin/theme
+msgid "single post"
+msgstr "المقالة"
+
+#~ msgid ""
+#~ "This tool helps you find and manage Compounds, Developers, and Cities that "
+#~ "are missing their designated images."
+#~ msgstr ""
+#~ "تساعدك هذه الأداة في العثور على المجمعات والمطورين والمدن التي تفتقد الصور "
+#~ "المخصصة لها وإدارتها."
+
+#~ msgid "All cities have an image assigned (or this feature is not configured)."
+#~ msgstr "تم تعيين صورة لجميع المدن (أو لم يتم تكوين هذه الميزة)."
+
+#~ msgid "An unknown error occurred during preparation."
+#~ msgstr "حدث خطأ غير معروف أثناء التحضير."
+
+#~ msgid "An unknown error occurred during processing."
+#~ msgstr "حدث خطأ غير معروف أثناء المعالجة."
+
+#~ msgid "Resuming previous developer import..."
+#~ msgstr "استئناف استيراد المطورين السابق..."
+
+#~ msgid "for language:"
+#~ msgstr "للغة:"
+
+#~ msgid "Developer import cancelled successfully."
+#~ msgstr "تم إلغاء استيراد المطور بنجاح."
+
+#~ msgid "Error during cancellation."
+#~ msgstr "خطأ أثناء الإلغاء."
+
+#~ msgid ""
+#~ "Import and update developers from a CSV file. This tool will download logos "
+#~ "and handle existing developers."
+#~ msgstr ""
+#~ "استيراد وتحديث بيانات المطورين من ملف CSV. ستُنزّل هذه الأداة الشعارات وتتعامل "
+#~ "مع بيانات المطورين الحاليين."
+
+#~ msgid "Important for avoiding timeouts:"
+#~ msgstr "هام لتجنب انتهاء الوقت:"
+
+#~ msgid ""
+#~ "The batch size is currently set to %d. If you experience timeouts, ensure "
+#~ "this is 1. This processes one developer per request, which is crucial when "
+#~ "downloading images."
+#~ msgstr ""
+#~ "حجم الدفعة مُعيَّن حاليًا على %d. في حال واجهتَ حالات انقطاع في المهلة، يُرجى "
+#~ "التأكد من أن القيمة 1. تتم معالجة مُطوِّر واحد لكل طلب، وهو أمر بالغ الأهمية عند "
+#~ "تنزيل الصور."
+
+#~ msgid "Failed to read CSV header."
+#~ msgstr "فشل في قراءة رأس CSV."
+
+#~ msgid ""
+#~ "Warning: Expected CSV column '%s' (for %s) not found in header. This data may "
+#~ "not be imported or errors might occur."
+#~ msgstr ""
+#~ "تحذير: لم يتم العثور على عمود CSV المتوقع '%s' (لـ %s) في العنوان. قد لا يتم "
+#~ "استيراد هذه البيانات، وقد تحدث أخطاء."
+
+#~ msgid ""
+#~ "(Row %d) Warning: Reached end of file unexpectedly while skipping processed "
+#~ "rows."
+#~ msgstr ""
+#~ "(الصف %d) تحذير: تم الوصول إلى نهاية الملف بشكل غير متوقع أثناء تخطي الصفوف "
+#~ "المعالجة."
+
+#~ msgid "Reached end of file."
+#~ msgstr "تم الوصول إلى نهاية الملف."
+
+#~ msgid "Retrieved previous status for file: %s"
+#~ msgstr "تم استرداد الحالة السابقة للملف: %s"
+
+#~ msgid "Notice: Developer '%s' (ID: %d) exists, but update failed: %s"
+#~ msgstr "ملاحظة: المطور '%s' (المعرف: %d) موجود، لكن فشل التحديث: %s"
+
+#~ msgid "Imported new developer '%s' (Slug: %s) as ID: %d."
+#~ msgstr "تم استيراد مطور جديد '%s' (الاسم اللطيف: %s) بالمعرف: %d."
+
+#~ msgid "Downloaded/Updated and linked logo for '%s' (Attachment ID: %d)."
+#~ msgstr "تم تنزيل/تحديث وربط الشعار لـ '%s' (معرف المرفق: %d)."
+
+#~ msgid "There are currently no services."
+#~ msgstr "لا يوجد حاليا أي خدمات."
+
+#~ msgid "Unnamed Developer"
+#~ msgstr "مطور بدون اسم"

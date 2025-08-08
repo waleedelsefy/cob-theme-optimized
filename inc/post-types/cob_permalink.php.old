@@ -1,0 +1,154 @@
+<?php
+/**
+ * WordPress Permalink and Rewrite Rule Customizations for Cob Theme.
+ *
+ * FINAL & STABLE VERSION (v2)
+ * This version includes a fix for the "pll_is_language_hidden" error by adding a function_exists() check,
+ * ensuring the code works even with different versions of the Polylang plugin.
+ *
+ * Final URL Structure:
+ * - Properties:  /{lang?}/{city-slug}/{compound-slug}/{post-id}/
+ * - Locations:   /{lang?}/city/{city-slug}/
+ * - Compounds:   /{lang?}/compound/{city-slug}/{compound-slug}/
+ * - Developers:  /{lang?}/developer/{developer-slug}/
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly
+}
+
+/**
+ * Add all custom query variables to WordPress.
+ */
+if ( ! function_exists( 'cob_add_query_vars_stable' ) ) {
+    function cob_add_query_vars_stable( $vars ) {
+        $vars[] = 'lang';
+        $vars[] = 'city';
+        $vars[] = 'compound';
+        $vars[] = 'developer';
+        return $vars;
+    }
+    add_filter( 'query_vars', 'cob_add_query_vars_stable' );
+}
+
+/**
+ * Add all custom rewrite rules with the stable, prefixed structure.
+ */
+if ( ! function_exists( 'cob_add_all_custom_rewrite_rules_stable' ) ) {
+    function cob_add_all_custom_rewrite_rules_stable() {
+
+        // --- Property Post Rule (No Prefix) ---
+        add_rewrite_rule(
+            '^([^/]{2})/([^/]+)/([^/]+)/([0-9]+)/?$',
+            'index.php?post_type=properties&p=$matches[4]&lang=$matches[1]&city=$matches[2]&compound=$matches[3]',
+            'top'
+        );
+        add_rewrite_rule(
+            '^(?!en|city|compound|developer)([^/]+)/([^/]+)/([0-9]+)/?$',
+            'index.php?post_type=properties&p=$matches[3]&city=$matches[1]&compound=$matches[2]',
+            'top'
+        );
+
+        // --- Compound Taxonomy Rule (Prefix: /compound/) ---
+        add_rewrite_rule( '^([^/]{2})/compound/([^/]+)/([^/]+)/?$', 'index.php?taxonomy=compound&term=$matches[3]&lang=$matches[1]&city=$matches[2]', 'top' );
+        add_rewrite_rule( '^compound/([^/]+)/([^/]+)/?$', 'index.php?taxonomy=compound&term=$matches[2]&city=$matches[1]', 'top' );
+
+        // --- city (City) Taxonomy Rule (Prefix: /city/) ---
+        add_rewrite_rule( '^([^/]{2})/city/([^/]+)/?$', 'index.php?taxonomy=city&term=$matches[2]&lang=$matches[1]', 'top' );
+        add_rewrite_rule( '^city/([^/]+)/?$', 'index.php?taxonomy=city&term=$matches[1]', 'top' );
+
+        // --- Developer Taxonomy Rule (Prefix: /developer/) ---
+        add_rewrite_rule( '^([^/]{2})/developer/([^/]+)/?$', 'index.php?taxonomy=developer&term=$matches[2]&lang=$matches[1]', 'top' );
+        add_rewrite_rule( '^developer/([^/]+)/?$', 'index.php?taxonomy=developer&term=$matches[1]', 'top' );
+    }
+    add_action( 'init', 'cob_add_all_custom_rewrite_rules_stable' );
+}
+
+/**
+ * Customize the permalink for 'properties' post type.
+ */
+if ( ! function_exists( 'cob_properties_permalink_stable' ) ) {
+    function cob_properties_permalink_stable( $post_link, $post, $leavename, $sample ) {
+        if ( 'properties' !== $post->post_type || ! function_exists('pll_get_post_language') || $sample ) {
+            return $post_link;
+        }
+
+        $lang_slug = pll_get_post_language( $post->ID, 'slug' ) ?: pll_default_language('slug');
+
+        $city_terms = get_the_terms( $post->ID, 'city' );
+        $city_slug_val = ( ! empty( $city_terms ) && ! is_wp_error( $city_terms ) ) ? current( $city_terms )->slug : 'unknown-city';
+
+        $compound_terms = get_the_terms( $post->ID, 'compound' );
+        $compound_slug_val = ( ! empty( $compound_terms ) && ! is_wp_error( $compound_terms ) ) ? current( $compound_terms )->slug : 'unknown-compound';
+
+        // --- FIXED: Check if function exists before calling it ---
+        $hide_default_lang_slug = false;
+        if ( function_exists('pll_is_language_hidden') ) {
+            $hide_default_lang_slug = pll_is_language_hidden( $lang_slug );
+        } elseif ( function_exists('pll_default_language') ) {
+            // Fallback logic: hide if it's the default language.
+            $hide_default_lang_slug = ( $lang_slug === pll_default_language('slug') );
+        }
+
+        if ($hide_default_lang_slug) {
+            $post_link = home_url( user_trailingslashit( "{$city_slug_val}/{$compound_slug_val}/" . $post->ID ) );
+        } else {
+            $post_link = home_url( user_trailingslashit( "{$lang_slug}/{$city_slug_val}/{$compound_slug_val}/" . $post->ID ) );
+        }
+
+        return $post_link;
+    }
+    add_filter( 'post_type_link', 'cob_properties_permalink_stable', 10, 4 );
+}
+
+/**
+ * Customize term links for all our taxonomies.
+ */
+if ( ! function_exists( 'cob_custom_term_link_stable' ) ) {
+    function cob_custom_term_link_stable( $termlink, $term, $taxonomy ) {
+
+        $custom_taxonomies = ['city', 'compound', 'developer'];
+        if ( ! in_array( $taxonomy, $custom_taxonomies ) || ! function_exists('pll_get_term_language') ) {
+            return $termlink;
+        }
+
+        $lang_slug = pll_get_term_language( $term->term_id, 'slug' ) ?: pll_default_language('slug');
+
+        // --- FIXED: Check if function exists before calling it ---
+        $hide_default_lang_slug = false;
+        if ( function_exists('pll_is_language_hidden') ) {
+            $hide_default_lang_slug = pll_is_language_hidden( $lang_slug );
+        } elseif ( function_exists('pll_default_language') ) {
+            // Fallback logic: hide if it's the default language.
+            $hide_default_lang_slug = ( $lang_slug === pll_default_language('slug') );
+        }
+
+        $prefix = $hide_default_lang_slug ? '' : "{$lang_slug}/";
+
+        // Handle 'compound' links
+        if ( 'compound' === $taxonomy ) {
+            $city_term_id = get_term_meta( $term->term_id, 'compound_city', true );
+            $city_slug_val = 'unknown-city';
+            if ( $city_term_id && is_numeric($city_term_id) ) {
+                $city_term_obj = get_term( (int) $city_term_id, 'city' );
+                if ( $city_term_obj && ! is_wp_error( $city_term_obj ) ) {
+                    $city_slug_val = $city_term_obj->slug;
+                }
+            }
+            return home_url( user_trailingslashit( "{$prefix}compound/{$city_slug_val}/{$term->slug}" ) );
+        }
+
+        // Handle 'city' (city) links
+        if ( 'city' === $taxonomy ) {
+            return home_url( user_trailingslashit( "{$prefix}city/{$term->slug}" ) );
+        }
+
+        // Handle 'developer' links
+        if ( 'developer' === $taxonomy ) {
+            return home_url( user_trailingslashit( "{$prefix}developer/{$term->slug}" ) );
+        }
+
+        return $termlink;
+    }
+    add_filter( 'term_link', 'cob_custom_term_link_stable', 10, 3 );
+}
